@@ -114,3 +114,17 @@ docker service logs dwebstack-server1_example_org_mailadm -ft
 docker service logs dwebstack-server1_example_org_postfix -ft
 docker service logs dwebstack-server1_example_org_synapse -ft
 ```
+# FrontEnd
+
+Front-end destination in `front` folder.
+For make changes you can use command
+
+```
+npm run dev
+```
+
+For production version need generate static files
+
+```
+npm run generate
+```
