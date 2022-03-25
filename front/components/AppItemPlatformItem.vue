@@ -65,7 +65,7 @@
                   src="/icons/copy.svg"
                   class="w-4 mr-1 cursor-pointer"
                   alt=""
-                />{{ $t("copyUrl") }}</span
+                /></span
               >
             </Button>
           </ButtonGroups>
