@@ -114,17 +114,22 @@ docker service logs dwebstack-server1_example_org_mailadm -ft
 docker service logs dwebstack-server1_example_org_postfix -ft
 docker service logs dwebstack-server1_example_org_synapse -ft
 ```
-# FrontEnd
+# Front-end
+For front-end we are use [Nuxt.js](https://nuxtjs.org/)
+Front-end folder — `front`
 
-Front-end destination in `front` folder.
-For make changes you can use command
+For install node dependence
+```
+yarn install
+```
 
+For start compilation use
 ```
-npm run dev
+yarn dev
 ```
+Apps open in standart port `http://localhost:3000`
 
 For production version need generate static files
-
 ```
-npm run generate
+yarn generate
 ```
