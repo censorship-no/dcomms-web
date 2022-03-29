@@ -6,6 +6,7 @@ export const state = () => ({
     { name: "cities.lviv", link: "https://lviv.dcomm.net.ua" },
     { name: "cities.lviv2", link: "https://lviv2.dcomm.net.ua" },
     { name: "cities.rivne", link: "https://rivne.dcomm.net.ua" },
+    { name: "cities.kherson", link: "https://kherson.dcomm.net.ua" },
   ],
   items: {
     messaging: [
@@ -223,6 +224,42 @@ Public group moderation is on.</p>
                 },
               ],
             },
+            {
+              label: "kherson",
+              name: {
+                ua: "Херсон Web chat",
+                ru: "Херсон Web chat",
+                en: "Kherson Web chat",
+              },
+
+              link: "https://chat.kherson.dcomm.net.ua/",
+              // docs: [
+              //   {
+              //     name: "HTML",
+              //     link: {
+              //       ua: "/docs/matrix/kherson.html",
+              //       en: "/docs/matrix/kherson.html",
+              //       ru: "/docs/matrix/kherson.html",
+              //     },
+              //   },
+              //   {
+              //     name: "HTML",
+              //     link: {
+              //       ua: "/docs/matrix/kherson.html",
+              //       en: "/docs/matrix/kherson.html",
+              //       ru: "/docs/matrix/kherson.html",
+              //     },
+              //   },
+              //   {
+              //     name: "PDF",
+              //     link: {
+              //       ua: "/docs/matrix/kherson.pdf",
+              //       en: "/docs/matrix/kherson.pdf",
+              //       ru: "/docs/matrix/kherson.pdf",
+              //     },
+              //   },
+              // ],
+            },
           ],
         },
         mobileApp: {
@@ -416,6 +453,33 @@ Public group moderation is on.</p>
                 },
               ],
             },
+            {
+              label: "kherson",
+              type: "copy",
+              name: {
+                ua: "matrix.kherson.dcomm.net.ua",
+                ru: "matrix.kherson.dcomm.net.ua",
+                en: "matrix.kherson.dcomm.net.ua",
+              },
+              // docs: [
+              //   {
+              //     name: "HTML",
+              //     link: {
+              //       ua: "/docs/matrix/kherson.html",
+              //       en: "/docs/matrix/kherson.html",
+              //       ru: "/docs/matrix/kherson.html",
+              //     },
+              //   },
+              //   {
+              //     name: "PDF",
+              //     link: {
+              //       ua: "/docs/matrix/kherson.pdf",
+              //       en: "/docs/matrix/kherson.pdf",
+              //       ru: "/docs/matrix/kherson.pdf",
+              //     },
+              //   },
+              // ],
+            },
           ],
         },
       },
@@ -541,9 +605,23 @@ Public group moderation is on.</p>
                 {
                   name: "QR Code",
                   link: {
-                    ua: "/docs/deltachat/rivne.html",
-                    en: "/docs/deltachat/rivne.html",
-                    ru: "/docs/deltachat/rivne.html",
+                    ua: "/docs/deltachat/rivne-invite.png",
+                    en: "/docs/deltachat/rivne-invite.png",
+                    ru: "/docs/deltachat/rivne-invite.png",
+                  },
+                },
+              ],
+            },
+            {
+              label: "kherson",
+
+              docs: [
+                {
+                  name: "QR Code",
+                  link: {
+                    ua: "/docs/deltachat/kherson-invite.png",
+                    en: "/docs/deltachat/kherson-invite.png",
+                    ru: "/docs/deltachat/kherson-invite.png",
                   },
                 },
               ],
@@ -668,6 +746,20 @@ Public group moderation is on.</p>
                     ua: "/docs/deltachat/rivne-invite.png",
                     en: "/docs/deltachat/rivne-invite.png",
                     ru: "/docs/deltachat/rivne-invite.png",
+                  },
+                },
+              ],
+            },
+            {
+              label: "kherson",
+
+              docs: [
+                {
+                  name: "QR Code",
+                  link: {
+                    ua: "/docs/deltachat/kherson-invite.png",
+                    en: "/docs/deltachat/kherson-invite.png",
+                    ru: "/docs/deltachat/kherson-invite.png",
                   },
                 },
               ],

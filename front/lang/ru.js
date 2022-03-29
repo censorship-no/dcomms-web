@@ -31,6 +31,7 @@ export default {
     lviv: "Львов",
     lviv2: "Львов 2",
     rivne: "Ровно",
+    kherson: "Херсон",
   },
 
   footer: {
