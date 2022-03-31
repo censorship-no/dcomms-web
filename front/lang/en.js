@@ -28,6 +28,7 @@ export default {
     lviv2: "Lviv 2",
     rivne: "Rivne",
     kherson: "Kherson",
+    mykolayiv: "Mykolayiv",
   },
   copyUrl: "Copy URL",
 

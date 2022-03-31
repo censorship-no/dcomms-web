@@ -7,6 +7,7 @@ export const state = () => ({
     { name: "cities.lviv2", link: "https://lviv2.dcomm.net.ua" },
     { name: "cities.rivne", link: "https://rivne.dcomm.net.ua" },
     { name: "cities.kherson", link: "https://kherson.dcomm.net.ua" },
+    { name: "cities.mykolayiv", link: "https://mykolayiv.dcomm.net.ua" },
   ],
   items: {
     messaging: [
@@ -260,6 +261,42 @@ Public group moderation is on.</p>
               //   },
               // ],
             },
+            {
+              label: "mykolayiv",
+              name: {
+                ua: "Миколаїв Web chat",
+                ru: "Николаев Web chat",
+                en: "Mykolayiv Web chat",
+              },
+
+              link: "https://chat.mykolayiv.dcomm.net.ua/",
+              // docs: [
+              //   {
+              //     name: "HTML",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.html",
+              //       en: "/docs/matrix/mykolayiv.html",
+              //       ru: "/docs/matrix/mykolayiv.html",
+              //     },
+              //   },
+              //   {
+              //     name: "HTML",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.html",
+              //       en: "/docs/matrix/mykolayiv.html",
+              //       ru: "/docs/matrix/mykolayiv.html",
+              //     },
+              //   },
+              //   {
+              //     name: "PDF",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.pdf",
+              //       en: "/docs/matrix/mykolayiv.pdf",
+              //       ru: "/docs/matrix/mykolayiv.pdf",
+              //     },
+              //   },
+              // ],
+            },
           ],
         },
         mobileApp: {
@@ -465,6 +502,33 @@ Public group moderation is on.</p>
               //   {
               //     name: "HTML",
               //     link: {
+              //       ua: "/docs/matrix/mykolayiv.html",
+              //       en: "/docs/matrix/mykolayiv.html",
+              //       ru: "/docs/matrix/mykolayiv.html",
+              //     },
+              //   },
+              //   {
+              //     name: "PDF",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.pdf",
+              //       en: "/docs/matrix/mykolayiv.pdf",
+              //       ru: "/docs/matrix/mykolayiv.pdf",
+              //     },
+              //   },
+              // ],
+            },
+            {
+              label: "mykolayiv",
+              type: "copy",
+              name: {
+                ua: "matrix.mykolayiv.dcomm.net.ua",
+                ru: "matrix.mykolayiv.dcomm.net.ua",
+                en: "matrix.mykolayiv.dcomm.net.ua",
+              },
+              // docs: [
+              //   {
+              //     name: "HTML",
+              //     link: {
               //       ua: "/docs/matrix/kherson.html",
               //       en: "/docs/matrix/kherson.html",
               //       ru: "/docs/matrix/kherson.html",
@@ -626,6 +690,20 @@ Public group moderation is on.</p>
                 },
               ],
             },
+            {
+              label: "mykolayiv",
+
+              docs: [
+                {
+                  name: "QR Code",
+                  link: {
+                    ua: "/docs/deltachat/mykolayiv-invite.png",
+                    en: "/docs/deltachat/mykolayiv-invite.png",
+                    ru: "/docs/deltachat/mykolayiv-invite.png",
+                  },
+                },
+              ],
+            },
           ],
         },
         mobileApp: {
@@ -760,6 +838,20 @@ Public group moderation is on.</p>
                     ua: "/docs/deltachat/kherson-invite.png",
                     en: "/docs/deltachat/kherson-invite.png",
                     ru: "/docs/deltachat/kherson-invite.png",
+                  },
+                },
+              ],
+            },
+            {
+              label: "mykolayiv",
+
+              docs: [
+                {
+                  name: "QR Code",
+                  link: {
+                    ua: "/docs/deltachat/mykolayiv-invite.png",
+                    en: "/docs/deltachat/mykolayiv-invite.png",
+                    ru: "/docs/deltachat/mykolayiv-invite.png",
                   },
                 },
               ],
