@@ -1,11 +1,21 @@
 
 <template>
   <v-select
-    class="min-w-[160px] bg-white focus:outline-none"
+    class="
+      min-w-[160px]
+      bg-white
+      focus:outline-none
+      hover:bg-gray-50
+      active:bg-gray-100
+      p-[4px]
+    "
+    :class="{ 'border-2 border-primary rounded-xl p-[2px]': focus }"
     :clearable="false"
     :searchable="false"
     v-model="lang"
     :options="availableLocales"
+    @open="focus = true"
+    @close="focus = false"
   >
     <template #option="{ code }">
       <span class="px-2 sm:px-3 py-1 sm:py-2">
@@ -34,6 +44,7 @@ export default {
   data() {
     return {
       lang: this.$i18n.locales.filter((i) => i.code === this.$i18n.locale)[0],
+      focus: false,
     };
   },
   watch: {
@@ -51,10 +62,28 @@ export default {
 };
 </script>
 <style >
+.vs__dropdown-toggle {
+  border: 1px solid #d1d5db !important;
+  border-radius: 10px !important;
+}
+.vs__dropdown-menu {
+  border-radius: 10px !important;
+  margin-top: 10px;
+  min-width: 224px !important;
+  right: 0px !important;
+  left: auto !important;
+}
+.vs__dropdown-option--highlight,
+.vs__dropdown-option--selected {
+  background: #f3f4f6;
+  background-color: #f3f4f6;
+
+  color: black;
+}
 .vs__actions {
   padding-right: 10px;
 }
 .vs__dropdown-toggle {
-  height: 42px;
+  height: 42px !important;
 }
 </style>
