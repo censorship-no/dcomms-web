@@ -3,7 +3,6 @@
   <v-select
     class="
       min-w-[160px]
-      bg-white
       focus:outline-none
       hover:bg-gray-50
       active:bg-gray-100
@@ -65,6 +64,7 @@ export default {
 .vs__dropdown-toggle {
   border: 1px solid #d1d5db !important;
   border-radius: 10px !important;
+  background: #fff;
 }
 .vs__dropdown-menu {
   border-radius: 10px !important;
