@@ -1,13 +1,13 @@
 export const state = () => ({
   servers: [
-    { name: "cities.kyiv", link: "https://kyiv.dcomm.net.ua" },
-    { name: "cities.odessa", link: "https://odessa.dcomm.neht.ua" },
-    { name: "cities.kharkiv", link: "https://kharkiv.dcomm.net.ua" },
-    { name: "cities.lviv", link: "https://lviv.dcomm.net.ua" },
-    { name: "cities.lviv2", link: "https://lviv2.dcomm.net.ua" },
-    { name: "cities.rivne", link: "https://rivne.dcomm.net.ua" },
-    { name: "cities.kherson", link: "https://kherson.dcomm.net.ua" },
-    { name: "cities.mykolayiv", link: "https://mykolayiv.dcomm.net.ua" },
+    { name: "cities.kyiv", link: "https://kyiv.dcomm.net.ua/" },
+    { name: "cities.odessa", link: "https://odessa.dcomm.neht.ua/" },
+    { name: "cities.kharkiv", link: "https://kharkiv.dcomm.net.ua/" },
+    { name: "cities.lviv", link: "https://lviv.dcomm.net.ua/" },
+    { name: "cities.lviv2", link: "https://lviv2.dcomm.net.ua/" },
+    { name: "cities.rivne", link: "https://rivne.dcomm.net.ua/" },
+    { name: "cities.kherson", link: "https://kherson.dcomm.net.ua/" },
+    { name: "cities.mykolayiv", link: "https://mykolayiv.dcomm.net.ua/" },
   ],
   items: {
     messaging: [
