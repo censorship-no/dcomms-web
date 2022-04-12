@@ -1,7 +1,7 @@
 export const state = () => ({
   servers: [
     { name: "cities.kyiv", link: "https://kyiv.dcomm.net.ua" },
-    { name: "cities.odessa", link: "ttps://odessa.dcomm.neht.ua" },
+    { name: "cities.odessa", link: "https://odessa.dcomm.neht.ua" },
     { name: "cities.kharkiv", link: "https://kharkiv.dcomm.net.ua" },
     { name: "cities.lviv", link: "https://lviv.dcomm.net.ua" },
     { name: "cities.lviv2", link: "https://lviv2.dcomm.net.ua" },
