@@ -8,6 +8,7 @@ export default {
     first: "Stay in touch with family and friends",
     second: "with or without the Internet",
   },
+  server: "Other servers:",
   connected: "You are currently connected to the <b>{name}</b> server",
   subtitle:
     "Decentralized communication tools you can use, even when Internet connectivity to Telegram, Whatsapp, Facebook and others is no longer available.",
