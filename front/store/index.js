@@ -40,512 +40,513 @@ Public group moderation is on.</p>
           en: "Element",
         },
         explain: {
-        explain: {
-          ua: "ЧАТ З ШИФРУВАННЯМ",
-          ru: "Федеративный чат с шифрованием",
-          en: "ENCRYPTED FEDERATED CHAT",
-        },
-        desktopApp: {
-          platforms: [],
-          link: "",
-          localLink: "",
-          serversLabel: {
-            ua: "Web chat",
-            ru: "Web chat",
-            en: "Web chat",
+          explain: {
+            ua: "ЧАТ З ШИФРУВАННЯМ",
+            ru: "Федеративный чат с шифрованием",
+            en: "ENCRYPTED FEDERATED CHAT",
           },
-          servers: [
-            {
-              label: "kyiv",
-              name: {
-                ua: "Київ Web chat",
-                ru: "Киев Web chat",
-                en: "Kyiv Web chat",
-              },
-              link: "https://chat.kyiv.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/kyiv.html",
-                    en: "/docs/matrix/kyiv.html",
-                    ru: "/docs/matrix/kyiv.html",
-                  },
-                },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/matrix/kyiv.pdf",
-                    en: "/docs/matrix/kyiv.pdf",
-                    ru: "/docs/matrix/kyiv.pdf",
-                  },
-                },
-              ],
+          desktopApp: {
+            platforms: [],
+            link: "",
+            localLink: "",
+            serversLabel: {
+              ua: "Web chat",
+              ru: "Web chat",
+              en: "Web chat",
             },
-            {
-              label: "kharkiv",
-              name: {
-                ua: "Харків Web chat",
-                ru: "Харьков Web chat",
-                en: "Kharkiv Web chat",
-              },
-              link: "https://chat.kharkiv.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/kharkiv.html",
-                    en: "/docs/matrix/kharkiv.html",
-                    ru: "/docs/matrix/kharkiv.html",
-                  },
-                },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/matrix/kharkiv.pdf",
-                    en: "/docs/matrix/kharkiv.pdf",
-                    ru: "/docs/matrix/kharkiv.pdf",
-                  },
-                },
-              ],
-            },
-            {
-              label: "odessa",
-              name: {
-                ua: "Одеса Web chat",
-                ru: "Одесса Web chat",
-                en: "Odessa Web chat",
-              },
-              link: "https://chat.odessa.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/odessa.html",
-                    en: "/docs/matrix/odessa.html",
-                    ru: "/docs/matrix/odessa.html",
-                  },
-                },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/matrix/odessa.pdf",
-                    en: "/docs/matrix/odessa.pdf",
-                    ru: "/docs/matrix/odessa.pdf",
-                  },
-                },
-              ],
-            },
-            {
-              label: "lviv",
-              name: {
-                ua: "Львів Web chat",
-                ru: "Львов Web chat",
-                en: "Lviv Web chat",
-              },
-              link: "https://chat.lviv.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/lviv.html",
-                    en: "/docs/matrix/lviv.html",
-                    ru: "/docs/matrix/lviv.html",
-                  },
-                },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/matrix/lviv.pdf",
-                    en: "/docs/matrix/lviv.pdf",
-                    ru: "/docs/matrix/lviv.pdf",
-                  },
-                },
-              ],
-            },
-            {
-              label: "lviv2",
-              name: {
-                ua: "Львів 2 Web chat",
-                ru: "Львов 2 Web chat",
-                en: "Lviv 2 Web chat",
-              },
-              link: "https://chat.lviv2.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/lviv2.html",
-                    en: "/docs/matrix/lviv2.html",
-                    ru: "/docs/matrix/lviv2.html",
-                  },
-                },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/matrix/lviv2.pdf",
-                    en: "/docs/matrix/lviv2.pdf",
-                    ru: "/docs/matrix/lviv2.pdf",
-                  },
-                },
-              ],
-            },
-            {
-              label: "rivne",
-              name: {
-                ua: "Рівне Web chat",
-                ru: "Ровно Web chat",
-                en: "Rivne Web chat",
-              },
-
-              link: "https://chat.rivne.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/rivne.html",
-                    en: "/docs/matrix/rivne.html",
-                    ru: "/docs/matrix/rivne.html",
-                  },
-                },
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/rivne.html",
-                    en: "/docs/matrix/rivne.html",
-                    ru: "/docs/matrix/rivne.html",
-                  },
-                },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/matrix/rivne.pdf",
-                    en: "/docs/matrix/rivne.pdf",
-                    ru: "/docs/matrix/rivne.pdf",
-                  },
-                },
-              ],
-            },
-            {
-              label: "kherson",
-              name: {
-                ua: "Херсон Web chat",
-                ru: "Херсон Web chat",
-                en: "Kherson Web chat",
-              },
-
-              link: "https://chat.kherson.dcomm.net.ua/",
-              // docs: [
-              //   {
-              //     name: "HTML",
-              //     link: {
-              //       ua: "/docs/matrix/kherson.html",
-              //       en: "/docs/matrix/kherson.html",
-              //       ru: "/docs/matrix/kherson.html",
-              //     },
-              //   },
-              //   {
-              //     name: "HTML",
-              //     link: {
-              //       ua: "/docs/matrix/kherson.html",
-              //       en: "/docs/matrix/kherson.html",
-              //       ru: "/docs/matrix/kherson.html",
-              //     },
-              //   },
-              //   {
-              //     name: "PDF",
-              //     link: {
-              //       ua: "/docs/matrix/kherson.pdf",
-              //       en: "/docs/matrix/kherson.pdf",
-              //       ru: "/docs/matrix/kherson.pdf",
-              //     },
-              //   },
-              // ],
-            },
-            {
-              label: "mykolayiv",
-              name: {
-                ua: "Миколаїв Web chat",
-                ru: "Николаев Web chat",
-                en: "Mykolayiv Web chat",
-              },
-
-              link: "https://chat.mykolayiv.dcomm.net.ua/",
-              // docs: [
-              //   {
-              //     name: "HTML",
-              //     link: {
-              //       ua: "/docs/matrix/mykolayiv.html",
-              //       en: "/docs/matrix/mykolayiv.html",
-              //       ru: "/docs/matrix/mykolayiv.html",
-              //     },
-              //   },
-              //   {
-              //     name: "HTML",
-              //     link: {
-              //       ua: "/docs/matrix/mykolayiv.html",
-              //       en: "/docs/matrix/mykolayiv.html",
-              //       ru: "/docs/matrix/mykolayiv.html",
-              //     },
-              //   },
-              //   {
-              //     name: "PDF",
-              //     link: {
-              //       ua: "/docs/matrix/mykolayiv.pdf",
-              //       en: "/docs/matrix/mykolayiv.pdf",
-              //       ru: "/docs/matrix/mykolayiv.pdf",
-              //     },
-              //   },
-              // ],
-            },
-          ],
-        },
-        mobileApp: {
-          platforms: [{ name: "Android", link: "" }],
-          downloads: {
-            mirrors: [
+            servers: [
               {
+                label: "kyiv",
                 name: {
-                  ua: "Локально",
-                  ru: "Локально",
-                  en: "Locally",
+                  ua: "Київ Web chat",
+                  ru: "Киев Web chat",
+                  en: "Kyiv Web chat",
                 },
-                link: "/package/element/files/",
+                link: "https://chat.kyiv.dcomm.net.ua/",
+                docs: [
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/kyiv.html",
+                      en: "/docs/matrix/kyiv.html",
+                      ru: "/docs/matrix/kyiv.html",
+                    },
+                  },
+                  {
+                    name: "PDF",
+                    link: {
+                      ua: "/docs/matrix/kyiv.pdf",
+                      en: "/docs/matrix/kyiv.pdf",
+                      ru: "/docs/matrix/kyiv.pdf",
+                    },
+                  },
+                ],
               },
               {
+                label: "kharkiv",
                 name: {
-                  ua: "Element.io",
-                  ru: "Element.io",
-                  en: "Element.io",
+                  ua: "Харків Web chat",
+                  ru: "Харьков Web chat",
+                  en: "Kharkiv Web chat",
                 },
-                link: "https://element.io/get-started#download",
+                link: "https://chat.kharkiv.dcomm.net.ua/",
+                docs: [
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/kharkiv.html",
+                      en: "/docs/matrix/kharkiv.html",
+                      ru: "/docs/matrix/kharkiv.html",
+                    },
+                  },
+                  {
+                    name: "PDF",
+                    link: {
+                      ua: "/docs/matrix/kharkiv.pdf",
+                      en: "/docs/matrix/kharkiv.pdf",
+                      ru: "/docs/matrix/kharkiv.pdf",
+                    },
+                  },
+                ],
+              },
+              {
+                label: "odessa",
+                name: {
+                  ua: "Одеса Web chat",
+                  ru: "Одесса Web chat",
+                  en: "Odessa Web chat",
+                },
+                link: "https://chat.odessa.dcomm.net.ua/",
+                docs: [
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/odessa.html",
+                      en: "/docs/matrix/odessa.html",
+                      ru: "/docs/matrix/odessa.html",
+                    },
+                  },
+                  {
+                    name: "PDF",
+                    link: {
+                      ua: "/docs/matrix/odessa.pdf",
+                      en: "/docs/matrix/odessa.pdf",
+                      ru: "/docs/matrix/odessa.pdf",
+                    },
+                  },
+                ],
+              },
+              {
+                label: "lviv",
+                name: {
+                  ua: "Львів Web chat",
+                  ru: "Львов Web chat",
+                  en: "Lviv Web chat",
+                },
+                link: "https://chat.lviv.dcomm.net.ua/",
+                docs: [
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/lviv.html",
+                      en: "/docs/matrix/lviv.html",
+                      ru: "/docs/matrix/lviv.html",
+                    },
+                  },
+                  {
+                    name: "PDF",
+                    link: {
+                      ua: "/docs/matrix/lviv.pdf",
+                      en: "/docs/matrix/lviv.pdf",
+                      ru: "/docs/matrix/lviv.pdf",
+                    },
+                  },
+                ],
+              },
+              {
+                label: "lviv2",
+                name: {
+                  ua: "Львів 2 Web chat",
+                  ru: "Львов 2 Web chat",
+                  en: "Lviv 2 Web chat",
+                },
+                link: "https://chat.lviv2.dcomm.net.ua/",
+                docs: [
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/lviv2.html",
+                      en: "/docs/matrix/lviv2.html",
+                      ru: "/docs/matrix/lviv2.html",
+                    },
+                  },
+                  {
+                    name: "PDF",
+                    link: {
+                      ua: "/docs/matrix/lviv2.pdf",
+                      en: "/docs/matrix/lviv2.pdf",
+                      ru: "/docs/matrix/lviv2.pdf",
+                    },
+                  },
+                ],
+              },
+              {
+                label: "rivne",
+                name: {
+                  ua: "Рівне Web chat",
+                  ru: "Ровно Web chat",
+                  en: "Rivne Web chat",
+                },
+
+                link: "https://chat.rivne.dcomm.net.ua/",
+                docs: [
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/rivne.html",
+                      en: "/docs/matrix/rivne.html",
+                      ru: "/docs/matrix/rivne.html",
+                    },
+                  },
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/rivne.html",
+                      en: "/docs/matrix/rivne.html",
+                      ru: "/docs/matrix/rivne.html",
+                    },
+                  },
+                  {
+                    name: "PDF",
+                    link: {
+                      ua: "/docs/matrix/rivne.pdf",
+                      en: "/docs/matrix/rivne.pdf",
+                      ru: "/docs/matrix/rivne.pdf",
+                    },
+                  },
+                ],
+              },
+              {
+                label: "kherson",
+                name: {
+                  ua: "Херсон Web chat",
+                  ru: "Херсон Web chat",
+                  en: "Kherson Web chat",
+                },
+
+                link: "https://chat.kherson.dcomm.net.ua/",
+                // docs: [
+                //   {
+                //     name: "HTML",
+                //     link: {
+                //       ua: "/docs/matrix/kherson.html",
+                //       en: "/docs/matrix/kherson.html",
+                //       ru: "/docs/matrix/kherson.html",
+                //     },
+                //   },
+                //   {
+                //     name: "HTML",
+                //     link: {
+                //       ua: "/docs/matrix/kherson.html",
+                //       en: "/docs/matrix/kherson.html",
+                //       ru: "/docs/matrix/kherson.html",
+                //     },
+                //   },
+                //   {
+                //     name: "PDF",
+                //     link: {
+                //       ua: "/docs/matrix/kherson.pdf",
+                //       en: "/docs/matrix/kherson.pdf",
+                //       ru: "/docs/matrix/kherson.pdf",
+                //     },
+                //   },
+                // ],
+              },
+              {
+                label: "mykolayiv",
+                name: {
+                  ua: "Миколаїв Web chat",
+                  ru: "Николаев Web chat",
+                  en: "Mykolayiv Web chat",
+                },
+
+                link: "https://chat.mykolayiv.dcomm.net.ua/",
+                // docs: [
+                //   {
+                //     name: "HTML",
+                //     link: {
+                //       ua: "/docs/matrix/mykolayiv.html",
+                //       en: "/docs/matrix/mykolayiv.html",
+                //       ru: "/docs/matrix/mykolayiv.html",
+                //     },
+                //   },
+                //   {
+                //     name: "HTML",
+                //     link: {
+                //       ua: "/docs/matrix/mykolayiv.html",
+                //       en: "/docs/matrix/mykolayiv.html",
+                //       ru: "/docs/matrix/mykolayiv.html",
+                //     },
+                //   },
+                //   {
+                //     name: "PDF",
+                //     link: {
+                //       ua: "/docs/matrix/mykolayiv.pdf",
+                //       en: "/docs/matrix/mykolayiv.pdf",
+                //       ru: "/docs/matrix/mykolayiv.pdf",
+                //     },
+                //   },
+                // ],
               },
             ],
           },
-          serversLabel: {
-            ua: "Server:",
-            ru: "Сервер:",
-            en: "Сервер:",
-          },
+          mobileApp: {
+            platforms: [{ name: "Android", link: "" }],
+            downloads: {
+              mirrors: [
+                {
+                  name: {
+                    ua: "Локально",
+                    ru: "Локально",
+                    en: "Locally",
+                  },
+                  link: "/package/element/files/",
+                },
+                {
+                  name: {
+                    ua: "Element.io",
+                    ru: "Element.io",
+                    en: "Element.io",
+                  },
+                  link: "https://element.io/get-started#download",
+                },
+              ],
+            },
+            serversLabel: {
+              ua: "Server:",
+              ru: "Сервер:",
+              en: "Сервер:",
+            },
 
-          servers: [
-            {
-              label: "kyiv",
-              name: {
-                ua: "matrix.kyiv.dcomm.net.ua",
-                ru: "matrix.kyiv.dcomm.net.ua",
-                en: "matrix.kyiv.dcomm.net.ua",
+            servers: [
+              {
+                label: "kyiv",
+                name: {
+                  ua: "matrix.kyiv.dcomm.net.ua",
+                  ru: "matrix.kyiv.dcomm.net.ua",
+                  en: "matrix.kyiv.dcomm.net.ua",
+                },
+                type: "copy",
+                docs: [
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/kyiv.html",
+                      en: "/docs/matrix/kyiv.html",
+                      ru: "/docs/matrix/kyiv.html",
+                    },
+                  },
+                  {
+                    name: "PDF",
+                    link: {
+                      ua: "/docs/matrix/kyiv.pdf",
+                      en: "/docs/matrix/kyiv.pdf",
+                      ru: "/docs/matrix/kyiv.pdf",
+                    },
+                  },
+                ],
               },
-              type: "copy",
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/kyiv.html",
-                    en: "/docs/matrix/kyiv.html",
-                    ru: "/docs/matrix/kyiv.html",
-                  },
+              {
+                label: "kharkiv",
+                type: "copy",
+                name: {
+                  ua: "matrix.kharkiv.dcomm.net.ua",
+                  ru: "matrix.kharkiv.dcomm.net.ua",
+                  en: "matrix.kharkiv.dcomm.net.ua",
                 },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/matrix/kyiv.pdf",
-                    en: "/docs/matrix/kyiv.pdf",
-                    ru: "/docs/matrix/kyiv.pdf",
+                docs: [
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/kharkiv.html",
+                      en: "/docs/matrix/kharkiv.html",
+                      ru: "/docs/matrix/kharkiv.html",
+                    },
                   },
-                },
-              ],
-            },
-            {
-              label: "kharkiv",
-              type: "copy",
-              name: {
-                ua: "matrix.kharkiv.dcomm.net.ua",
-                ru: "matrix.kharkiv.dcomm.net.ua",
-                en: "matrix.kharkiv.dcomm.net.ua",
+                  {
+                    name: "PDF",
+                    link: {
+                      ua: "/docs/matrix/kharkiv.pdf",
+                      en: "/docs/matrix/kharkiv.pdf",
+                      ru: "/docs/matrix/kharkiv.pdf",
+                    },
+                  },
+                ],
               },
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/kharkiv.html",
-                    en: "/docs/matrix/kharkiv.html",
-                    ru: "/docs/matrix/kharkiv.html",
-                  },
+              {
+                label: "odessa",
+                type: "copy",
+                name: {
+                  ua: "matrix.odessa.dcomm.net.ua",
+                  ru: "matrix.odessa.dcomm.net.ua",
+                  en: "matrix.odessa.dcomm.net.ua",
                 },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/matrix/kharkiv.pdf",
-                    en: "/docs/matrix/kharkiv.pdf",
-                    ru: "/docs/matrix/kharkiv.pdf",
+                docs: [
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/odessa.html",
+                      en: "/docs/matrix/odessa.html",
+                      ru: "/docs/matrix/odessa.html",
+                    },
                   },
-                },
-              ],
-            },
-            {
-              label: "odessa",
-              type: "copy",
-              name: {
-                ua: "matrix.odessa.dcomm.net.ua",
-                ru: "matrix.odessa.dcomm.net.ua",
-                en: "matrix.odessa.dcomm.net.ua",
+                  {
+                    name: "PDF",
+                    link: {
+                      ua: "/docs/matrix/odessa.pdf",
+                      en: "/docs/matrix/odessa.pdf",
+                      ru: "/docs/matrix/odessa.pdf",
+                    },
+                  },
+                ],
               },
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/odessa.html",
-                    en: "/docs/matrix/odessa.html",
-                    ru: "/docs/matrix/odessa.html",
-                  },
+              {
+                label: "lviv",
+                type: "copy",
+                name: {
+                  ua: "matrix.lviv.dcomm.net.ua",
+                  ru: "matrix.lviv.dcomm.net.ua",
+                  en: "matrix.lviv.dcomm.net.ua",
                 },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/matrix/odessa.pdf",
-                    en: "/docs/matrix/odessa.pdf",
-                    ru: "/docs/matrix/odessa.pdf",
+                docs: [
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/lviv.html",
+                      en: "/docs/matrix/lviv.html",
+                      ru: "/docs/matrix/lviv.html",
+                    },
                   },
-                },
-              ],
-            },
-            {
-              label: "lviv",
-              type: "copy",
-              name: {
-                ua: "matrix.lviv.dcomm.net.ua",
-                ru: "matrix.lviv.dcomm.net.ua",
-                en: "matrix.lviv.dcomm.net.ua",
+                  {
+                    name: "PDF",
+                    link: {
+                      ua: "/docs/matrix/lviv.pdf",
+                      en: "/docs/matrix/lviv.pdf",
+                      ru: "/docs/matrix/lviv.pdf",
+                    },
+                  },
+                ],
               },
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/lviv.html",
-                    en: "/docs/matrix/lviv.html",
-                    ru: "/docs/matrix/lviv.html",
-                  },
+              {
+                label: "lviv2",
+                type: "copy",
+                name: {
+                  ua: "matrix.lviv2.dcomm.net.ua",
+                  ru: "matrix.lviv2.dcomm.net.ua",
+                  en: "matrix.lviv2.dcomm.net.ua",
                 },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/matrix/lviv.pdf",
-                    en: "/docs/matrix/lviv.pdf",
-                    ru: "/docs/matrix/lviv.pdf",
+                docs: [
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/lviv2.html",
+                      en: "/docs/matrix/lviv2.html",
+                      ru: "/docs/matrix/lviv2.html",
+                    },
                   },
-                },
-              ],
-            },
-            {
-              label: "lviv2",
-              type: "copy",
-              name: {
-                ua: "matrix.lviv2.dcomm.net.ua",
-                ru: "matrix.lviv2.dcomm.net.ua",
-                en: "matrix.lviv2.dcomm.net.ua",
+                  {
+                    name: "PDF",
+                    link: {
+                      ua: "/docs/matrix/lviv2.pdf",
+                      en: "/docs/matrix/lviv2.pdf",
+                      ru: "/docs/matrix/lviv2.pdf",
+                    },
+                  },
+                ],
               },
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/lviv2.html",
-                    en: "/docs/matrix/lviv2.html",
-                    ru: "/docs/matrix/lviv2.html",
-                  },
+              {
+                label: "rivne",
+                type: "copy",
+                name: {
+                  ua: "matrix.rivne.dcomm.net.ua",
+                  ru: "matrix.rivne.dcomm.net.ua",
+                  en: "matrix.rivne.dcomm.net.ua",
                 },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/matrix/lviv2.pdf",
-                    en: "/docs/matrix/lviv2.pdf",
-                    ru: "/docs/matrix/lviv2.pdf",
+                docs: [
+                  {
+                    name: "HTML",
+                    link: {
+                      ua: "/docs/matrix/rivne.html",
+                      en: "/docs/matrix/rivne.html",
+                      ru: "/docs/matrix/rivne.html",
+                    },
                   },
-                },
-              ],
-            },
-            {
-              label: "rivne",
-              type: "copy",
-              name: {
-                ua: "matrix.rivne.dcomm.net.ua",
-                ru: "matrix.rivne.dcomm.net.ua",
-                en: "matrix.rivne.dcomm.net.ua",
+                  {
+                    name: "PDF",
+                    link: {
+                      ua: "/docs/matrix/rivne.pdf",
+                      en: "/docs/matrix/rivne.pdf",
+                      ru: "/docs/matrix/rivne.pdf",
+                    },
+                  },
+                ],
               },
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/matrix/rivne.html",
-                    en: "/docs/matrix/rivne.html",
-                    ru: "/docs/matrix/rivne.html",
-                  },
+              {
+                label: "kherson",
+                type: "copy",
+                name: {
+                  ua: "matrix.kherson.dcomm.net.ua",
+                  ru: "matrix.kherson.dcomm.net.ua",
+                  en: "matrix.kherson.dcomm.net.ua",
                 },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/matrix/rivne.pdf",
-                    en: "/docs/matrix/rivne.pdf",
-                    ru: "/docs/matrix/rivne.pdf",
-                  },
+                // docs: [
+                //   {
+                //     name: "HTML",
+                //     link: {
+                //       ua: "/docs/matrix/mykolayiv.html",
+                //       en: "/docs/matrix/mykolayiv.html",
+                //       ru: "/docs/matrix/mykolayiv.html",
+                //     },
+                //   },
+                //   {
+                //     name: "PDF",
+                //     link: {
+                //       ua: "/docs/matrix/mykolayiv.pdf",
+                //       en: "/docs/matrix/mykolayiv.pdf",
+                //       ru: "/docs/matrix/mykolayiv.pdf",
+                //     },
+                //   },
+                // ],
+              },
+              {
+                label: "mykolayiv",
+                type: "copy",
+                name: {
+                  ua: "matrix.mykolayiv.dcomm.net.ua",
+                  ru: "matrix.mykolayiv.dcomm.net.ua",
+                  en: "matrix.mykolayiv.dcomm.net.ua",
                 },
-              ],
-            },
-            {
-              label: "kherson",
-              type: "copy",
-              name: {
-                ua: "matrix.kherson.dcomm.net.ua",
-                ru: "matrix.kherson.dcomm.net.ua",
-                en: "matrix.kherson.dcomm.net.ua",
+                // docs: [
+                //   {
+                //     name: "HTML",
+                //     link: {
+                //       ua: "/docs/matrix/kherson.html",
+                //       en: "/docs/matrix/kherson.html",
+                //       ru: "/docs/matrix/kherson.html",
+                //     },
+                //   },
+                //   {
+                //     name: "PDF",
+                //     link: {
+                //       ua: "/docs/matrix/kherson.pdf",
+                //       en: "/docs/matrix/kherson.pdf",
+                //       ru: "/docs/matrix/kherson.pdf",
+                //     },
+                //   },
+                // ],
               },
-              // docs: [
-              //   {
-              //     name: "HTML",
-              //     link: {
-              //       ua: "/docs/matrix/mykolayiv.html",
-              //       en: "/docs/matrix/mykolayiv.html",
-              //       ru: "/docs/matrix/mykolayiv.html",
-              //     },
-              //   },
-              //   {
-              //     name: "PDF",
-              //     link: {
-              //       ua: "/docs/matrix/mykolayiv.pdf",
-              //       en: "/docs/matrix/mykolayiv.pdf",
-              //       ru: "/docs/matrix/mykolayiv.pdf",
-              //     },
-              //   },
-              // ],
-            },
-            {
-              label: "mykolayiv",
-              type: "copy",
-              name: {
-                ua: "matrix.mykolayiv.dcomm.net.ua",
-                ru: "matrix.mykolayiv.dcomm.net.ua",
-                en: "matrix.mykolayiv.dcomm.net.ua",
-              },
-              // docs: [
-              //   {
-              //     name: "HTML",
-              //     link: {
-              //       ua: "/docs/matrix/kherson.html",
-              //       en: "/docs/matrix/kherson.html",
-              //       ru: "/docs/matrix/kherson.html",
-              //     },
-              //   },
-              //   {
-              //     name: "PDF",
-              //     link: {
-              //       ua: "/docs/matrix/kherson.pdf",
-              //       en: "/docs/matrix/kherson.pdf",
-              //       ru: "/docs/matrix/kherson.pdf",
-              //     },
-              //   },
-              // ],
-            },
-          ],
+            ],
+          },
         },
       },
       {
