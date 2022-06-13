@@ -40,6 +40,7 @@ Public group moderation is on.</p>
           en: "Element",
         },
         explain: {
+        explain: {
           ua: "ЧАТ З ШИФРУВАННЯМ",
           ru: "Федеративный чат с шифрованием",
           en: "ENCRYPTED FEDERATED CHAT",
