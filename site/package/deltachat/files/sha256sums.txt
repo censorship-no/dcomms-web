@@ -1,1 +1,1 @@
-b1a91a0de39d3859ce55a932a0bf5630b1740b9d306d29b70a18e09204a0ea1e  deltachat/files/deltachat-gplay-release-1.28.1.apk
+795528dc4ca0404d93b93906569c60bd093a80e5cde667a2634747affa6324b5  deltachat-gplay-release-1.30.3.apk
