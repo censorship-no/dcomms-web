@@ -1,4 +1,0 @@
-69ed5a00e0116550bf16cc8bd1e79f9a33589dccf6af195e7a9d4353554dbef4  ceno-arm64-v8a-release-1.5.0-2022-04-26_0904.apk
-a3125ec737855c16fe276981e8ecf29da8ac72ab55e4a4684dd68474974ead75  ceno-armeabi-v7a-release-1.5.0-2022-04-26_0904.apk
-9a124c4bbbf9437cfa0badafc84f454330f347a8c133e195aaafe2b324ffcf34  ouinet-arm64-v8a-release-2022-04-26_0904.aar
-cdbc3e787efdd323ce0a0b8fa9623eab0462fb059fc53b4fc08064e4bbc86c28  ouinet-armeabi-v7a-release-2022-04-26_0904.aar
