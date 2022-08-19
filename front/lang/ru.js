@@ -42,6 +42,8 @@ export default {
   rubric: {
     messaging: "Переписка",
     browsing: "Просмотр сайтов",
+    social: "Социальные сети",
+
     //    filesharing: "Обмен файлами",
   },
   adressCopy: "Адрес скопирован",

@@ -25,6 +25,17 @@
       <div v-for="item in browsing" :key="item.id">
         <AppItem :data="item" />
       </div>
+      <SectionTitle>
+        <template v-slot:icon>
+          <img class="w-16" src="/icons/social.svg" alt="" />
+        </template>
+        <template>
+          {{ $t("rubric.social") }}
+        </template>
+      </SectionTitle>
+      <div v-for="item in social" :key="item.id">
+        <AppItem :data="item" />
+      </div>
     </div>
     <ReplicateSection />
   </main>
@@ -76,6 +87,11 @@ export default {
     },
     browsing() {
       return this.$store.state.items.browsing.filter((item) => {
+        return item.show === true;
+      });
+    },
+    social() {
+      return this.$store.state.items.social.filter((item) => {
         return item.show === true;
       });
     },
