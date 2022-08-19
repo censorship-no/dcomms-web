@@ -1,13 +1,37 @@
 export const state = () => ({
   servers: [
-    { name: "cities.kyiv", link: "https://kyiv.dcomm.net.ua/" },
-    { name: "cities.odessa", link: "https://odessa.dcomm.net.ua/" },
-    { name: "cities.kharkiv", link: "https://kharkiv.dcomm.net.ua/" },
+    { name: "cities.kyiv", link: "https://kyiv.dcomm.net.ua/", label: "kyiv" },
+    {
+      name: "cities.odessa",
+      link: "https://odessa.dcomm.net.ua/",
+      label: "odessa",
+    },
+    {
+      name: "cities.kharkiv",
+      link: "https://kharkiv.dcomm.net.ua/",
+      label: "kharkiv",
+    },
     { name: "cities.lviv", link: "https://lviv.dcomm.net.ua/" },
-    { name: "cities.lviv2", link: "https://lviv2.dcomm.net.ua/" },
-    { name: "cities.rivne", link: "https://rivne.dcomm.net.ua/" },
-    { name: "cities.kherson", link: "https://kherson.dcomm.net.ua/" },
-    { name: "cities.mykolayiv", link: "https://mykolayiv.dcomm.net.ua/" },
+    {
+      name: "cities.lviv2",
+      link: "https://lviv2.dcomm.net.ua/",
+      label: "lviv2",
+    },
+    {
+      name: "cities.rivne",
+      link: "https://rivne.dcomm.net.ua/",
+      label: "rivne",
+    },
+    {
+      name: "cities.kherson",
+      link: "https://kherson.dcomm.net.ua/",
+      label: "kherson",
+    },
+    {
+      name: "cities.mykolayiv",
+      link: "https://mykolayiv.dcomm.net.ua/",
+      label: "mykolayiv",
+    },
   ],
   items: {
     messaging: [
@@ -88,7 +112,7 @@ Public group moderation is on.</p>
                 ru: "Харьков Web chat",
                 en: "Kharkiv Web chat",
               },
-              link: "https://chat.kharkiv.dcomm.net.ua/",
+              link: "https://social.kharkiv.dcomm.net.ua/",
               docs: [
                 {
                   name: "HTML",
@@ -1052,6 +1076,362 @@ Public group moderation is on.</p>
               },
             ],
           },
+        },
+      },
+    ],
+    social: [
+      {
+        id: 1,
+        show: true,
+        descr: {
+          ua: `<p>Mastodon — це інноваційна платформа для мікроблогів з відкритим вихідним кодом, схожа до Twitter або Tumblr. Сервіс був створений у 2016 році, і з тих пір Mastodon залучає нових користувачів та спільноти, які зацікавлені у простори, що є вільними від підходів великих технологічних компаній та цензури.</p>`,
+          en: `<p>Mastodon is an innovative open-source and self-hostable microblogging platform similar to Twitter or Tumblr. Its was started in 2016 and since then Mastodon constantly attracted new users and communities looking for a social environment independent from big company logics and censorship.<p>`,
+          ru: `<p>Mastodon - это инновационная  платформа микроблогов с открытым исходным кодом и возможностью самостоятельного хостинга, похожая на Twitter или Tumblr. Она была запущена в 2016 году, и с тех пор Mastodon постоянно привлекает новых пользователей и сообщества, ищущие социальную среду, независимую от логики корпораций и цензуры.</p>`,
+        },
+        explain: {
+          ua: "Незалежна соціальна мережа",
+          ru: "Независимая социальная сеть",
+          en: "Independent social network",
+        },
+        name: {
+          ua: "Mastodon",
+          ru: "Mastodon",
+          en: "Mastodon",
+        },
+        logo: "/logo/mastodon.svg.png",
+        desktopApp: {
+          platforms: [],
+          link: "",
+          localLink: "",
+          serversLabel: {
+            ua: "Сервер",
+            ru: "Сервер",
+            en: "Server",
+          },
+          servers: [
+            {
+              label: "kyiv",
+              name: {
+                ua: "Київ сервер",
+                ru: "Киев сервер",
+                en: "Kyiv server",
+              },
+              link: "https://social.kyiv.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "kharkiv",
+              name: {
+                ua: "Харків сервер",
+                ru: "Харьков сервер",
+                en: "Kharkiv server",
+              },
+              link: "https://social.kharkiv.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "odessa",
+              name: {
+                ua: "Одеса server",
+                ru: "Одесса server",
+                en: "Odessa server",
+              },
+              link: "https://social.odessa.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "lviv",
+              name: {
+                ua: "Львів сервер",
+                ru: "Львов сервер",
+                en: "Lviv server",
+              },
+              link: "https://social.lviv.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "lviv2",
+              name: {
+                ua: "Львів 2 сервер",
+                ru: "Львов 2 сервер",
+                en: "Lviv 2 server",
+              },
+              link: "https://social.lviv2.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "rivne",
+              name: {
+                ua: "Рівне сервер",
+                ru: "Ровно сервер",
+                en: "Rivne server",
+              },
+
+              link: "https://social.rivne.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "kherson",
+              name: {
+                ua: "Херсон сервер",
+                ru: "Херсон сервер",
+                en: "Kherson server",
+              },
+
+              link: "https://social.kherson.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "mykolayiv",
+              name: {
+                ua: "Миколаїв сервер",
+                ru: "Николаев сервер",
+                en: "Mykolayiv server",
+              },
+
+              link: "https://social.mykolayiv.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        mobileApp: {
+          platforms: [],
+          link: "",
+          localLink: "",
+          serversLabel: {
+            ua: "Сервер",
+            ru: "Сервер",
+            en: "Server",
+          },
+          servers: [
+            {
+              label: "kyiv",
+              name: {
+                ua: "Київ сервер",
+                ru: "Киев сервер",
+                en: "Kyiv server",
+              },
+              link: "https://social.kyiv.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "kharkiv",
+              name: {
+                ua: "Харків сервер",
+                ru: "Харьков сервер",
+                en: "Kharkiv server",
+              },
+              link: "https://social.kharkiv.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "odessa",
+              name: {
+                ua: "Одеса сервер",
+                ru: "Одесса сервер",
+                en: "Odessa server",
+              },
+              link: "https://social.odessa.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "lviv",
+              name: {
+                ua: "Львів сервер",
+                ru: "Львов сервер",
+                en: "Lviv server",
+              },
+              link: "https://social.lviv.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "lviv2",
+              name: {
+                ua: "Львів 2 сервер",
+                ru: "Львов 2 сервер",
+                en: "Lviv 2 server",
+              },
+              link: "https://social.lviv2.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "rivne",
+              name: {
+                ua: "Рівне сервер",
+                ru: "Ровно сервер",
+                en: "Rivne server",
+              },
+
+              link: "https://social.rivne.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "kherson",
+              name: {
+                ua: "Херсон сервер",
+                ru: "Херсон сервер",
+                en: "Kherson server",
+              },
+
+              link: "https://social.kherson.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+            {
+              label: "mykolayiv",
+              name: {
+                ua: "Миколаїв сервер",
+                ru: "Николаев сервер",
+                en: "Mykolayiv server",
+              },
+
+              link: "https://social.mykolayiv.dcomm.net.ua/",
+              docs: [
+                {
+                  name: "Link",
+                  link: {
+                    ua: "https://mastodon.help/",
+                    en: "https://mastodon.help/",
+                    ru: "https://mastodon.help/",
+                  },
+                },
+              ],
+            },
+          ],
         },
       },
     ],

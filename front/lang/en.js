@@ -40,6 +40,7 @@ export default {
   rubric: {
     messaging: "Chat",
     browsing: "Web Browsing",
+    social: "Social",
     //    filesharing: "File-Sharing",
   },
   adressCopy: "Adress copy",
