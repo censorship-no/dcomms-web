@@ -1,6 +1,9 @@
 export const state = () => ({
-  servers: [
-    { name: "cities.kyiv", link: "https://kyiv.dcomm.net.ua/", label: "kyiv" },
+  servers: [{
+      name: "cities.kyiv",
+      link: "https://kyiv.dcomm.net.ua/",
+      label: "kyiv"
+    },
     {
       name: "cities.odessa",
       link: "https://odessa.dcomm.net.ua/",
@@ -11,7 +14,10 @@ export const state = () => ({
       link: "https://kharkiv.dcomm.net.ua/",
       label: "kharkiv",
     },
-    { name: "cities.lviv", link: "https://lviv.dcomm.net.ua/" },
+    {
+      name: "cities.lviv",
+      link: "https://lviv.dcomm.net.ua/"
+    },
     {
       name: "cities.lviv2",
       link: "https://lviv2.dcomm.net.ua/",
@@ -31,11 +37,14 @@ export const state = () => ({
       name: "cities.mykolayiv",
       link: "https://mykolayiv.dcomm.net.ua/",
       label: "mykolayiv",
+    }, {
+      name: "cities.poltava",
+      link: "https://poltava.dcomm.net.ua/",
+      label: "poltava",
     },
   ],
   items: {
-    messaging: [
-      {
+    messaging: [{
         id: 1,
         show: true,
         name: "",
@@ -77,8 +86,7 @@ Public group moderation is on.</p>
             ru: "Web chat",
             en: "Web chat",
           },
-          servers: [
-            {
+          servers: [{
               label: "kyiv",
               name: {
                 ua: "Київ Web chat",
@@ -86,8 +94,7 @@ Public group moderation is on.</p>
                 en: "Kyiv Web chat",
               },
               link: "https://chat.kyiv.dcomm.net.ua/",
-              docs: [
-                {
+              docs: [{
                   name: "HTML",
                   link: {
                     ua: "/docs/matrix/kyiv.html",
@@ -113,8 +120,7 @@ Public group moderation is on.</p>
                 en: "Kharkiv Web chat",
               },
               link: "https://social.kharkiv.dcomm.net.ua/",
-              docs: [
-                {
+              docs: [{
                   name: "HTML",
                   link: {
                     ua: "/docs/matrix/kharkiv.html",
@@ -140,8 +146,7 @@ Public group moderation is on.</p>
                 en: "Odessa Web chat",
               },
               link: "https://chat.odessa.dcomm.net.ua/",
-              docs: [
-                {
+              docs: [{
                   name: "HTML",
                   link: {
                     ua: "/docs/matrix/odessa.html",
@@ -167,8 +172,7 @@ Public group moderation is on.</p>
                 en: "Lviv Web chat",
               },
               link: "https://chat.lviv.dcomm.net.ua/",
-              docs: [
-                {
+              docs: [{
                   name: "HTML",
                   link: {
                     ua: "/docs/matrix/lviv.html",
@@ -194,8 +198,7 @@ Public group moderation is on.</p>
                 en: "Lviv 2 Web chat",
               },
               link: "https://chat.lviv2.dcomm.net.ua/",
-              docs: [
-                {
+              docs: [{
                   name: "HTML",
                   link: {
                     ua: "/docs/matrix/lviv2.html",
@@ -222,8 +225,7 @@ Public group moderation is on.</p>
               },
 
               link: "https://chat.rivne.dcomm.net.ua/",
-              docs: [
-                {
+              docs: [{
                   name: "HTML",
                   link: {
                     ua: "/docs/matrix/rivne.html",
@@ -321,13 +323,51 @@ Public group moderation is on.</p>
               //   },
               // ],
             },
+            {
+              label: "poltava",
+              name: {
+                ua: "Полтава Web chat",
+                ru: "Полтава Web chat",
+                en: "Poltava Web chat",
+              },
+
+              link: "https://chat.poltava.dcomm.net.ua/",
+              // docs: [
+              //   {
+              //     name: "HTML",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.html",
+              //       en: "/docs/matrix/mykolayiv.html",
+              //       ru: "/docs/matrix/mykolayiv.html",
+              //     },
+              //   },
+              //   {
+              //     name: "HTML",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.html",
+              //       en: "/docs/matrix/mykolayiv.html",
+              //       ru: "/docs/matrix/mykolayiv.html",
+              //     },
+              //   },
+              //   {
+              //     name: "PDF",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.pdf",
+              //       en: "/docs/matrix/mykolayiv.pdf",
+              //       ru: "/docs/matrix/mykolayiv.pdf",
+              //     },
+              //   },
+              // ],
+            },
           ],
         },
         mobileApp: {
-          platforms: [{ name: "Android", link: "" }],
+          platforms: [{
+            name: "Android",
+            link: ""
+          }],
           downloads: {
-            mirrors: [
-              {
+            mirrors: [{
                 name: {
                   ua: "Локально",
                   ru: "Локально",
@@ -351,8 +391,7 @@ Public group moderation is on.</p>
             en: "Сервер:",
           },
 
-          servers: [
-            {
+          servers: [{
               label: "kyiv",
               name: {
                 ua: "matrix.kyiv.dcomm.net.ua",
@@ -360,8 +399,7 @@ Public group moderation is on.</p>
                 en: "matrix.kyiv.dcomm.net.ua",
               },
               type: "copy",
-              docs: [
-                {
+              docs: [{
                   name: "HTML",
                   link: {
                     ua: "/docs/matrix/kyiv.html",
@@ -387,8 +425,7 @@ Public group moderation is on.</p>
                 ru: "matrix.kharkiv.dcomm.net.ua",
                 en: "matrix.kharkiv.dcomm.net.ua",
               },
-              docs: [
-                {
+              docs: [{
                   name: "HTML",
                   link: {
                     ua: "/docs/matrix/kharkiv.html",
@@ -414,8 +451,7 @@ Public group moderation is on.</p>
                 ru: "matrix.odessa.dcomm.net.ua",
                 en: "matrix.odessa.dcomm.net.ua",
               },
-              docs: [
-                {
+              docs: [{
                   name: "HTML",
                   link: {
                     ua: "/docs/matrix/odessa.html",
@@ -441,8 +477,7 @@ Public group moderation is on.</p>
                 ru: "matrix.lviv.dcomm.net.ua",
                 en: "matrix.lviv.dcomm.net.ua",
               },
-              docs: [
-                {
+              docs: [{
                   name: "HTML",
                   link: {
                     ua: "/docs/matrix/lviv.html",
@@ -468,8 +503,7 @@ Public group moderation is on.</p>
                 ru: "matrix.lviv2.dcomm.net.ua",
                 en: "matrix.lviv2.dcomm.net.ua",
               },
-              docs: [
-                {
+              docs: [{
                   name: "HTML",
                   link: {
                     ua: "/docs/matrix/lviv2.html",
@@ -495,8 +529,7 @@ Public group moderation is on.</p>
                 ru: "matrix.rivne.dcomm.net.ua",
                 en: "matrix.rivne.dcomm.net.ua",
               },
-              docs: [
-                {
+              docs: [{
                   name: "HTML",
                   link: {
                     ua: "/docs/matrix/rivne.html",
@@ -567,6 +600,32 @@ Public group moderation is on.</p>
               //     },
               //   },
               // ],
+            }, {
+              label: "poltava",
+              type: "copy",
+              name: {
+                ua: "matrix.poltava.dcomm.net.ua",
+                ru: "matrix.poltava.dcomm.net.ua",
+                en: "matrix.poltava.dcomm.net.ua",
+              },
+              // docs: [
+              //   {
+              //     name: "HTML",
+              //     link: {
+              //       ua: "/docs/matrix/kherson.html",
+              //       en: "/docs/matrix/kherson.html",
+              //       ru: "/docs/matrix/kherson.html",
+              //     },
+              //   },
+              //   {
+              //     name: "PDF",
+              //     link: {
+              //       ua: "/docs/matrix/kherson.pdf",
+              //       en: "/docs/matrix/kherson.pdf",
+              //       ru: "/docs/matrix/kherson.pdf",
+              //     },
+              //   },
+              // ],
             },
           ],
         },
@@ -582,7 +641,11 @@ Public group moderation is on.</p>
           en: `<p>Delta.chat is an encrypted messaging service that uses email protocols (SMTP) for communications. Similar in design to WhatsApp. Users need to install a smartphone application and add the server via QR codes, linked below. Other people can chat with you by generating a chat invitation QR code from the app. </p>`,
           ru: `<p>Delta.chat —  зашифрованная служба обмена сообщениями, использующая протокол электронной почты (SMTP). Дизайн похож на Whatsapp. Пользователям необходимо установить приложение для смартфона и добавить сервер с помощью QR-кодов, ссылки на которые приведены ниже. Другие люди могут общаться с вами, сгенерировав QR-код приглашения в чат в самом приложении.</p>`,
         },
-        name: { ua: "Delta Сhat", ru: "Delta Сhat", en: "Delta Сhat" },
+        name: {
+          ua: "Delta Сhat",
+          ru: "Delta Сhat",
+          en: "Delta Сhat"
+        },
         logo: "/logo/deltachat.svg",
         explain: {
           ua: "EMAIL-ЧАТ",
@@ -590,15 +653,22 @@ Public group moderation is on.</p>
           en: "EMAIL-BASED CHAT",
         },
         desktopApp: {
-          platforms: [
-            { name: "Linux", link: "" },
-            { name: "Windows", link: "" },
-            { name: "macOs", link: "" },
+          platforms: [{
+              name: "Linux",
+              link: ""
+            },
+            {
+              name: "Windows",
+              link: ""
+            },
+            {
+              name: "macOs",
+              link: ""
+            },
           ],
           link: "https://delta.chat/en/download",
           downloads: {
-            mirrors: [
-              {
+            mirrors: [{
                 name: {
                   ua: "Локально",
                   ru: "Локально",
@@ -616,140 +686,137 @@ Public group moderation is on.</p>
               },
             ],
           },
-          servers: [
-            {
+          servers: [{
               label: "kyiv",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/kyiv-invite.png",
-                    en: "/docs/deltachat/kyiv-invite.png",
-                    ru: "/docs/deltachat/kyiv-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/kyiv-invite.png",
+                  en: "/docs/deltachat/kyiv-invite.png",
+                  ru: "/docs/deltachat/kyiv-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "kharkiv",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/kharkiv-invite.png",
-                    en: "/docs/deltachat/kharkiv-invite.png",
-                    ru: "/docs/deltachat/kharkiv-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/kharkiv-invite.png",
+                  en: "/docs/deltachat/kharkiv-invite.png",
+                  ru: "/docs/deltachat/kharkiv-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "odessa",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/odessa-invite.png",
-                    en: "/docs/deltachat/odessa-invite.png",
-                    ru: "/docs/deltachat/odessa-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/odessa-invite.png",
+                  en: "/docs/deltachat/odessa-invite.png",
+                  ru: "/docs/deltachat/odessa-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "lviv",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/lviv-invite.png",
-                    en: "/docs/deltachat/lviv-invite.png",
-                    ru: "/docs/deltachat/lviv-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/lviv-invite.png",
+                  en: "/docs/deltachat/lviv-invite.png",
+                  ru: "/docs/deltachat/lviv-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "lviv2",
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/lviv2-invite.png",
-                    en: "/docs/deltachat/lviv2-invite.png",
-                    ru: "/docs/deltachat/lviv2-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/lviv2-invite.png",
+                  en: "/docs/deltachat/lviv2-invite.png",
+                  ru: "/docs/deltachat/lviv2-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "rivne",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/rivne-invite.png",
-                    en: "/docs/deltachat/rivne-invite.png",
-                    ru: "/docs/deltachat/rivne-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/rivne-invite.png",
+                  en: "/docs/deltachat/rivne-invite.png",
+                  ru: "/docs/deltachat/rivne-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "kherson",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/kherson-invite.png",
-                    en: "/docs/deltachat/kherson-invite.png",
-                    ru: "/docs/deltachat/kherson-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/kherson-invite.png",
+                  en: "/docs/deltachat/kherson-invite.png",
+                  ru: "/docs/deltachat/kherson-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "mykolayiv",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/mykolayiv-invite.png",
-                    en: "/docs/deltachat/mykolayiv-invite.png",
-                    ru: "/docs/deltachat/mykolayiv-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/mykolayiv-invite.png",
+                  en: "/docs/deltachat/mykolayiv-invite.png",
+                  ru: "/docs/deltachat/mykolayiv-invite.png",
                 },
-              ],
+              }, ],
+            },
+            {
+              label: "poltava",
+
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/poltava-invite.png",
+                  en: "/docs/deltachat/poltava-invite.png",
+                  ru: "/docs/deltachat/poltava-invite.png",
+                },
+              }, ],
             },
           ],
         },
         mobileApp: {
-          platforms: [
-            { name: "Android", link: "" },
-            { name: "iOs", link: "" },
-          ],
-          link: "https://get.delta.chat/",
-          docs: [
+          platforms: [{
+              name: "Android",
+              link: ""
+            },
             {
-              name: "QR Code",
-              link: {
-                ua: "/docs/deltachat/deltachat-manual.pdf",
-                en: "/docs/deltachat/deltachat-manual_en.pdf",
-                ru: "/docs/deltachat/deltachat-manual_ru.pdf",
-              },
+              name: "iOs",
+              link: ""
             },
           ],
+          link: "https://get.delta.chat/",
+          docs: [{
+            name: "QR Code",
+            link: {
+              ua: "/docs/deltachat/deltachat-manual.pdf",
+              en: "/docs/deltachat/deltachat-manual_en.pdf",
+              ru: "/docs/deltachat/deltachat-manual_ru.pdf",
+            },
+          }, ],
 
           downloads: {
-            mirrors: [
-              {
+            mirrors: [{
                 name: {
                   ua: "Локально",
                   ru: "Локально",
@@ -767,118 +834,112 @@ Public group moderation is on.</p>
               },
             ],
           },
-          servers: [
-            {
+          servers: [{
               label: "kyiv",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/kyiv-invite.png",
-                    en: "/docs/deltachat/kyiv-invite.png",
-                    ru: "/docs/deltachat/kyiv-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/kyiv-invite.png",
+                  en: "/docs/deltachat/kyiv-invite.png",
+                  ru: "/docs/deltachat/kyiv-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "kharkiv",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/kharkiv-invite.png",
-                    en: "/docs/deltachat/kharkiv-invite.png",
-                    ru: "/docs/deltachat/kharkiv-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/kharkiv-invite.png",
+                  en: "/docs/deltachat/kharkiv-invite.png",
+                  ru: "/docs/deltachat/kharkiv-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "odessa",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/odessa-invite.png",
-                    en: "/docs/deltachat/odessa-invite.png",
-                    ru: "/docs/deltachat/odess-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/odessa-invite.png",
+                  en: "/docs/deltachat/odessa-invite.png",
+                  ru: "/docs/deltachat/odess-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "lviv",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/lviv-invite.png",
-                    en: "/docs/deltachat/lviv-invite.png",
-                    ru: "/docs/deltachat/lviv-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/lviv-invite.png",
+                  en: "/docs/deltachat/lviv-invite.png",
+                  ru: "/docs/deltachat/lviv-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "lviv2",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/lviv2-invite.png",
-                    en: "/docs/deltachat/lviv2-invite.png",
-                    ru: "/docs/deltachat/lviv2-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/lviv2-invite.png",
+                  en: "/docs/deltachat/lviv2-invite.png",
+                  ru: "/docs/deltachat/lviv2-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "rivne",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/rivne-invite.png",
-                    en: "/docs/deltachat/rivne-invite.png",
-                    ru: "/docs/deltachat/rivne-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/rivne-invite.png",
+                  en: "/docs/deltachat/rivne-invite.png",
+                  ru: "/docs/deltachat/rivne-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "kherson",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/kherson-invite.png",
-                    en: "/docs/deltachat/kherson-invite.png",
-                    ru: "/docs/deltachat/kherson-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/kherson-invite.png",
+                  en: "/docs/deltachat/kherson-invite.png",
+                  ru: "/docs/deltachat/kherson-invite.png",
                 },
-              ],
+              }, ],
             },
             {
               label: "mykolayiv",
 
-              docs: [
-                {
-                  name: "QR Code",
-                  link: {
-                    ua: "/docs/deltachat/mykolayiv-invite.png",
-                    en: "/docs/deltachat/mykolayiv-invite.png",
-                    ru: "/docs/deltachat/mykolayiv-invite.png",
-                  },
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/mykolayiv-invite.png",
+                  en: "/docs/deltachat/mykolayiv-invite.png",
+                  ru: "/docs/deltachat/mykolayiv-invite.png",
                 },
-              ],
+              }, ],
+            }, {
+              label: "poltava",
+
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/poltava-invite.png",
+                  en: "/docs/deltachat/poltava-invite.png",
+                  ru: "/docs/deltachat/poltava-invite.png",
+                },
+              }, ],
             },
           ],
         },
@@ -903,33 +964,32 @@ Public group moderation is on.</p>
           en: "P2p messaging",
         },
         mobileApp: {
-          platforms: [{ name: "Android", link: "" }],
-          servers: [
-            {
-              label: "all",
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/briar/index.html",
-                    en: "/docs/briar/index_en.html",
-                    ru: "/docs/briar/index_ru.html",
-                  },
+          platforms: [{
+            name: "Android",
+            link: ""
+          }],
+          servers: [{
+            label: "all",
+            docs: [{
+                name: "HTML",
+                link: {
+                  ua: "/docs/briar/index.html",
+                  en: "/docs/briar/index_en.html",
+                  ru: "/docs/briar/index_ru.html",
                 },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/briar/briar.pdf",
-                    en: "/docs/briar/briar_en.pdf",
-                    ru: "/docs/briar/briar_ru.pdf",
-                  },
-                },
-              ],
-            },
-          ],
-          downloads: {
-            mirrors: [
+              },
               {
+                name: "PDF",
+                link: {
+                  ua: "/docs/briar/briar.pdf",
+                  en: "/docs/briar/briar_en.pdf",
+                  ru: "/docs/briar/briar_ru.pdf",
+                },
+              },
+            ],
+          }, ],
+          downloads: {
+            mirrors: [{
                 name: {
                   ua: "Локально",
                   ru: "Локально",
@@ -950,8 +1010,7 @@ Public group moderation is on.</p>
         },
       },
     ],
-    browsing: [
-      {
+    browsing: [{
         id: 1,
         show: true,
         descr: {
@@ -971,33 +1030,32 @@ Public group moderation is on.</p>
         },
         logo: "/logo/ceno.png",
         mobileApp: {
-          platforms: [{ name: "Android", link: "" }],
-          servers: [
-            {
-              label: "all",
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/ceno/index.html",
-                    en: "/docs/ceno/index_en.html",
-                    ru: "/docs/ceno/index_ru.html",
-                  },
+          platforms: [{
+            name: "Android",
+            link: ""
+          }],
+          servers: [{
+            label: "all",
+            docs: [{
+                name: "HTML",
+                link: {
+                  ua: "/docs/ceno/index.html",
+                  en: "/docs/ceno/index_en.html",
+                  ru: "/docs/ceno/index_ru.html",
                 },
-                {
-                  name: "PDF",
-                  link: {
-                    ua: "/docs/ceno/ceno-manual.pdf",
-                    en: "/docs/ceno/ceno-manual_en.pdf",
-                    ru: "/docs/ceno/ceno-manual_ru.pdf",
-                  },
-                },
-              ],
-            },
-          ],
-          downloads: {
-            mirrors: [
+              },
               {
+                name: "PDF",
+                link: {
+                  ua: "/docs/ceno/ceno-manual.pdf",
+                  en: "/docs/ceno/ceno-manual_en.pdf",
+                  ru: "/docs/ceno/ceno-manual_ru.pdf",
+                },
+              },
+            ],
+          }, ],
+          downloads: {
+            mirrors: [{
                 name: {
                   ua: "Локально",
                   ru: "Локально",
@@ -1037,28 +1095,28 @@ Public group moderation is on.</p>
         },
         logo: "/logo/newnode.png",
         mobileApp: {
-          platforms: [
-            { name: "Android", link: "" },
-            { name: "iOs", link: "" },
-          ],
-          servers: [
+          platforms: [{
+              name: "Android",
+              link: ""
+            },
             {
-              label: "all",
-              docs: [
-                {
-                  name: "HTML",
-                  link: {
-                    ua: "/docs/newnode/index.html",
-                    en: "/docs/newnode/index_en.html",
-                    ru: "/docs/newnode/index_ru.html",
-                  },
-                },
-              ],
+              name: "iOs",
+              link: ""
             },
           ],
+          servers: [{
+            label: "all",
+            docs: [{
+              name: "HTML",
+              link: {
+                ua: "/docs/newnode/index.html",
+                en: "/docs/newnode/index_en.html",
+                ru: "/docs/newnode/index_ru.html",
+              },
+            }, ],
+          }, ],
           downloads: {
-            mirrors: [
-              {
+            mirrors: [{
                 name: {
                   ua: "Локально",
                   ru: "Локально",
@@ -1079,362 +1137,362 @@ Public group moderation is on.</p>
         },
       },
     ],
-    social: [
-      {
-        id: 1,
-        show: true,
-        descr: {
-          ua: `<p>Mastodon — це інноваційна платформа для мікроблогів з відкритим вихідним кодом, схожа до Twitter або Tumblr. Сервіс був створений у 2016 році, і з тих пір Mastodon залучає нових користувачів та спільноти, які зацікавлені у простори, що є вільними від підходів великих технологічних компаній та цензури.</p>`,
-          en: `<p>Mastodon is an innovative open-source and self-hostable microblogging platform similar to Twitter or Tumblr. Its was started in 2016 and since then Mastodon constantly attracted new users and communities looking for a social environment independent from big company logics and censorship.<p>`,
-          ru: `<p>Mastodon - это инновационная  платформа микроблогов с открытым исходным кодом и возможностью самостоятельного хостинга, похожая на Twitter или Tumblr. Она была запущена в 2016 году, и с тех пор Mastodon постоянно привлекает новых пользователей и сообщества, ищущие социальную среду, независимую от логики корпораций и цензуры.</p>`,
-        },
-        explain: {
-          ua: "Незалежна соціальна мережа",
-          ru: "Независимая социальная сеть",
-          en: "Independent social network",
-        },
-        name: {
-          ua: "Mastodon",
-          ru: "Mastodon",
-          en: "Mastodon",
-        },
-        logo: "/logo/mastodon.svg.png",
-        desktopApp: {
-          platforms: [],
-          link: "",
-          localLink: "",
-          serversLabel: {
-            ua: "Сервер",
-            ru: "Сервер",
-            en: "Server",
-          },
-          servers: [
-            {
-              label: "kyiv",
-              name: {
-                ua: "Київ сервер",
-                ru: "Киев сервер",
-                en: "Kyiv server",
-              },
-              link: "https://social.kyiv.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "kharkiv",
-              name: {
-                ua: "Харків сервер",
-                ru: "Харьков сервер",
-                en: "Kharkiv server",
-              },
-              link: "https://social.kharkiv.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "odessa",
-              name: {
-                ua: "Одеса server",
-                ru: "Одесса server",
-                en: "Odessa server",
-              },
-              link: "https://social.odessa.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "lviv",
-              name: {
-                ua: "Львів сервер",
-                ru: "Львов сервер",
-                en: "Lviv server",
-              },
-              link: "https://social.lviv.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "lviv2",
-              name: {
-                ua: "Львів 2 сервер",
-                ru: "Львов 2 сервер",
-                en: "Lviv 2 server",
-              },
-              link: "https://social.lviv2.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "rivne",
-              name: {
-                ua: "Рівне сервер",
-                ru: "Ровно сервер",
-                en: "Rivne server",
-              },
-
-              link: "https://social.rivne.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "kherson",
-              name: {
-                ua: "Херсон сервер",
-                ru: "Херсон сервер",
-                en: "Kherson server",
-              },
-
-              link: "https://social.kherson.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "mykolayiv",
-              name: {
-                ua: "Миколаїв сервер",
-                ru: "Николаев сервер",
-                en: "Mykolayiv server",
-              },
-
-              link: "https://social.mykolayiv.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-          ],
-        },
-        mobileApp: {
-          platforms: [],
-          link: "",
-          localLink: "",
-          serversLabel: {
-            ua: "Сервер",
-            ru: "Сервер",
-            en: "Server",
-          },
-          servers: [
-            {
-              label: "kyiv",
-              name: {
-                ua: "Київ сервер",
-                ru: "Киев сервер",
-                en: "Kyiv server",
-              },
-              link: "https://social.kyiv.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "kharkiv",
-              name: {
-                ua: "Харків сервер",
-                ru: "Харьков сервер",
-                en: "Kharkiv server",
-              },
-              link: "https://social.kharkiv.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "odessa",
-              name: {
-                ua: "Одеса сервер",
-                ru: "Одесса сервер",
-                en: "Odessa server",
-              },
-              link: "https://social.odessa.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "lviv",
-              name: {
-                ua: "Львів сервер",
-                ru: "Львов сервер",
-                en: "Lviv server",
-              },
-              link: "https://social.lviv.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "lviv2",
-              name: {
-                ua: "Львів 2 сервер",
-                ru: "Львов 2 сервер",
-                en: "Lviv 2 server",
-              },
-              link: "https://social.lviv2.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "rivne",
-              name: {
-                ua: "Рівне сервер",
-                ru: "Ровно сервер",
-                en: "Rivne server",
-              },
-
-              link: "https://social.rivne.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "kherson",
-              name: {
-                ua: "Херсон сервер",
-                ru: "Херсон сервер",
-                en: "Kherson server",
-              },
-
-              link: "https://social.kherson.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-            {
-              label: "mykolayiv",
-              name: {
-                ua: "Миколаїв сервер",
-                ru: "Николаев сервер",
-                en: "Mykolayiv server",
-              },
-
-              link: "https://social.mykolayiv.dcomm.net.ua/",
-              docs: [
-                {
-                  name: "Link",
-                  link: {
-                    ua: "https://mastodon.help/",
-                    en: "https://mastodon.help/",
-                    ru: "https://mastodon.help/",
-                  },
-                },
-              ],
-            },
-          ],
-        },
+    social: [{
+      id: 1,
+      show: true,
+      descr: {
+        ua: `<p>Mastodon — це інноваційна платформа для мікроблогів з відкритим вихідним кодом, схожа до Twitter або Tumblr. Сервіс був створений у 2016 році, і з тих пір Mastodon залучає нових користувачів та спільноти, які зацікавлені у простори, що є вільними від підходів великих технологічних компаній та цензури.</p>`,
+        en: `<p>Mastodon is an innovative open-source and self-hostable microblogging platform similar to Twitter or Tumblr. Its was started in 2016 and since then Mastodon constantly attracted new users and communities looking for a social environment independent from big company logics and censorship.<p>`,
+        ru: `<p>Mastodon - это инновационная  платформа микроблогов с открытым исходным кодом и возможностью самостоятельного хостинга, похожая на Twitter или Tumblr. Она была запущена в 2016 году, и с тех пор Mastodon постоянно привлекает новых пользователей и сообщества, ищущие социальную среду, независимую от логики корпораций и цензуры.</p>`,
       },
-    ],
+      explain: {
+        ua: "Незалежна соціальна мережа",
+        ru: "Независимая социальная сеть",
+        en: "Independent social network",
+      },
+      name: {
+        ua: "Mastodon",
+        ru: "Mastodon",
+        en: "Mastodon",
+      },
+      logo: "/logo/mastodon.svg.png",
+      desktopApp: {
+        platforms: [],
+        link: "",
+        localLink: "",
+        serversLabel: {
+          ua: "Сервер",
+          ru: "Сервер",
+          en: "Server",
+        },
+        servers: [{
+            label: "kyiv",
+            name: {
+              ua: "Київ сервер",
+              ru: "Киев сервер",
+              en: "Kyiv server",
+            },
+            link: "https://social.kyiv.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "kharkiv",
+            name: {
+              ua: "Харків сервер",
+              ru: "Харьков сервер",
+              en: "Kharkiv server",
+            },
+            link: "https://social.kharkiv.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "odessa",
+            name: {
+              ua: "Одеса server",
+              ru: "Одесса server",
+              en: "Odessa server",
+            },
+            link: "https://social.odessa.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "lviv",
+            name: {
+              ua: "Львів сервер",
+              ru: "Львов сервер",
+              en: "Lviv server",
+            },
+            link: "https://social.lviv.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "lviv2",
+            name: {
+              ua: "Львів 2 сервер",
+              ru: "Львов 2 сервер",
+              en: "Lviv 2 server",
+            },
+            link: "https://social.lviv2.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "rivne",
+            name: {
+              ua: "Рівне сервер",
+              ru: "Ровно сервер",
+              en: "Rivne server",
+            },
+
+            link: "https://social.rivne.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "kherson",
+            name: {
+              ua: "Херсон сервер",
+              ru: "Херсон сервер",
+              en: "Kherson server",
+            },
+
+            link: "https://social.kherson.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "mykolayiv",
+            name: {
+              ua: "Миколаїв сервер",
+              ru: "Николаев сервер",
+              en: "Mykolayiv server",
+            },
+
+            link: "https://social.mykolayiv.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "poltava",
+            name: {
+              ua: "Полтава сервер",
+              ru: "Полтава сервер",
+              en: "Poltava server",
+            },
+
+            link: "https://social.poltava.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+        ],
+      },
+      mobileApp: {
+        platforms: [],
+        link: "",
+        localLink: "",
+        serversLabel: {
+          ua: "Сервер",
+          ru: "Сервер",
+          en: "Server",
+        },
+        servers: [{
+            label: "kyiv",
+            name: {
+              ua: "Київ сервер",
+              ru: "Киев сервер",
+              en: "Kyiv server",
+            },
+            link: "https://social.kyiv.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "kharkiv",
+            name: {
+              ua: "Харків сервер",
+              ru: "Харьков сервер",
+              en: "Kharkiv server",
+            },
+            link: "https://social.kharkiv.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "odessa",
+            name: {
+              ua: "Одеса сервер",
+              ru: "Одесса сервер",
+              en: "Odessa server",
+            },
+            link: "https://social.odessa.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "lviv",
+            name: {
+              ua: "Львів сервер",
+              ru: "Львов сервер",
+              en: "Lviv server",
+            },
+            link: "https://social.lviv.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "lviv2",
+            name: {
+              ua: "Львів 2 сервер",
+              ru: "Львов 2 сервер",
+              en: "Lviv 2 server",
+            },
+            link: "https://social.lviv2.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "rivne",
+            name: {
+              ua: "Рівне сервер",
+              ru: "Ровно сервер",
+              en: "Rivne server",
+            },
+
+            link: "https://social.rivne.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "kherson",
+            name: {
+              ua: "Херсон сервер",
+              ru: "Херсон сервер",
+              en: "Kherson server",
+            },
+
+            link: "https://social.kherson.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "mykolayiv",
+            name: {
+              ua: "Миколаїв сервер",
+              ru: "Николаев сервер",
+              en: "Mykolayiv server",
+            },
+
+            link: "https://social.mykolayiv.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "poltava",
+            name: {
+              ua: "Полтава сервер",
+              ru: "Полтава сервер",
+              en: "Poltava server",
+            },
+
+            link: "https://social.poltava.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+        ],
+      },
+    }, ],
     //    filesharing: [
     //      {
     //        id: 1,

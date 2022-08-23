@@ -10,12 +10,10 @@ export default {
   },
   server: "Other servers:",
   connected: "You are currently connected to the <b>{name}</b> server",
-  subtitle:
-    "Decentralized communication tools you can use, even when Internet connectivity to Telegram, Whatsapp, Facebook and others is no longer available.",
+  subtitle: "Decentralized communication tools you can use, even when Internet connectivity to Telegram, Whatsapp, Facebook and others is no longer available.",
   alert: {
     title: "Don’t wait. Replicate!",
-    descr:
-      "Stand up your own networks using our local bundle. Join the techops group to discuss collaboration, new services and volunteering",
+    descr: "Stand up your own networks using our local bundle. Join the techops group to discuss collaboration, new services and volunteering",
     buttons: {
       repo: "Code Repo",
       servers: "Matrix Server",
@@ -30,6 +28,7 @@ export default {
     rivne: "Rivne",
     kherson: "Kherson",
     mykolayiv: "Mykolayiv",
+    poltava: "Poltava",
   },
   copyUrl: "Copy URL",
 
