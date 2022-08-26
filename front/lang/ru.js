@@ -4,6 +4,9 @@ export default {
     ua: "Украинский",
     en: "Английский",
   },
+    pages: {
+      about: "О нас"
+    },
   copyUrl: "Копировать",
 
   title: {

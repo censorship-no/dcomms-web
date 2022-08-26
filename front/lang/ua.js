@@ -4,6 +4,10 @@ export default {
     ua: "Українська",
     en: "Англійська",
   },
+
+  pages: {
+    about: "Мета проекту"
+  },
   copyUrl: "Копіювати",
 
   title: {

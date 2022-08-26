@@ -4,6 +4,9 @@ export default {
     ua: "Ukrainian",
     en: "English",
   },
+  pages: {
+    about: "About"
+  },
   title: {
     first: "Stay in touch with family and friends",
     second: "with or without the Internet",
