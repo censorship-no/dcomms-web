@@ -33,12 +33,12 @@ export default {
     }
   },
   title: {
-    first: "Stay in touch with family and friends",
-    second: "with or without the Internet",
+    first: "Alternative communication methods during censorship, interruptions, and ",
+    second: " restrictions on the Internet",
   },
   server: "Other servers:",
   connected: "You are currently connected to the <b>{name}</b> server",
-  subtitle: "Decentralized communication tools you can use, even when Internet connectivity to Telegram, Whatsapp, Facebook and others is no longer available.",
+  subtitle: "We suggest that you pre-install and test this set of applications that can work autonomously and regardless of internet shutdown. If you are on located on the temporarily occupied territories, then this simple preparation guarantees you having communication channels that work regardless connectivity issues. We have created several servers on the territory of Ukraine to ensure the possibility of communication between users over the local network, regardless of what is happening. The list of these applications will be updated.",
   alert: {
     title: "Don’t wait. Replicate!",
     descr: "Stand up your own networks using our local bundle. Join the techops group to discuss collaboration, new services and volunteering",
@@ -65,7 +65,7 @@ export default {
     license: `Licensed under the <a  href="https://github.com/censorship-no/dcomms"> GNU General Public License v3.0</a>`,
   },
   rubric: {
-    messaging: "Chat",
+    messaging: "Safe messengers",
     browsing: "Web Browsing",
     social: "Social",
     //    filesharing: "File-Sharing",
