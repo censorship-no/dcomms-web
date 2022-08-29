@@ -14,7 +14,7 @@
             <NuxtLink
               class="text-gray-700 uppercase"
               :to="localePath('about')"
-              >{{ $t("pages.about") }}</NuxtLink
+              >{{ $t("pages.about.title") }}</NuxtLink
             >
           </li>
         </ul>
