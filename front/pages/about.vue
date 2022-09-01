@@ -5,7 +5,7 @@
   <main class="container mx-auto sm:px-0">
     <H1 class="text-center mb-10 mt-16"> {{ $t("pages.about.title") }}</H1>
     <div
-      class="max-w-[700px] mx-auto content"
+      class="max-w-[700px] mx-auto content px-3"
       v-html="$t('pages.about.content')"
     ></div>
     <hr class="mt-16" />
