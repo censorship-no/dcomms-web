@@ -25,7 +25,7 @@
       <ul class="sm:hidden flex justify-center items-center mr-3 mb-6">
         <li>
           <NuxtLink class="text-gray-700 uppercase" :to="localePath('about')">{{
-            $t("pages.about")
+            $t("pages.about.title")
           }}</NuxtLink>
         </li>
       </ul>
