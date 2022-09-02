@@ -8,8 +8,8 @@
           src="/dcomm_logo.svg"
           :alt="$t('title')"
       /></a>
-      <nav class="flex">
-        <ul class="hidden sm:flex justify-end items-center mr-6">
+      <nav class="flex items-center">
+        <ul class="hidden sm:flex justify-end items-center mr-6 mb-0">
           <li>
             <NuxtLink
               class="text-gray-700 uppercase"

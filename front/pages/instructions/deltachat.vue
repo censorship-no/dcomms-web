@@ -1,0 +1,45 @@
+<template>
+  <main class="container mx-auto sm:px-0 instruction">
+    <H1 class="text-center">Deltachat</H1>
+    <div class="max-w-[700px] mx-auto">
+      <img
+        :src="`/docs/deltachat/${server}-invite.png`"
+        class="mx-auto"
+        alt=""
+      />
+    </div>
+  </main>
+</template>
+
+<script>
+export default {
+  layout: "default",
+  nuxtI18n: {
+    locales: ["ua"],
+  },
+  name: "DeltachatDocs",
+  data() {
+    return {
+      domain: this.$store.state.rootDomain,
+    };
+  },
+  computed: {
+    server() {
+      if (this.$t(`cities`)[`${window.location.host.split(".")[0]}`]) {
+        return window.location.host.split(".")[1]
+          ? window.location.host.split(".")[0]
+          : "kyiv";
+      } else {
+        return "kyiv";
+      }
+    },
+  },
+};
+</script>
+<style>
+.instruction img,
+video,
+figure {
+  margin: 20px 0 15px 0;
+}
+</style>
