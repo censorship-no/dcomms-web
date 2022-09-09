@@ -8,27 +8,16 @@ export default {
     about: {
       title: "About",
       content: `
-      <h2>Project objective </h2>
       <p>
-        The goal of the project is to create an alternative communication platform for regular Internet users in case ofInternet access restriction or censorship.We offer a list of various applications that allow communicating through an open and free protocol, hosted on local networks in Ukraine.In other words, we offer you to download the applications, configure, and try how it works, so that censorship restrictions and/or Internet shutdowns will not pose a problem for you.
-      </p>
-      <h2>How it works?</h2>
-      <p>All these instructions are provided to make a point that simple actions can ensure communication with each other, with friends and relatives abroad, as well as access to the international information field, in case the usual methods of communication would stop working. To do this, one can download these applications and connect to the servers that one can trust.</p>
-      <p>
-        <b>There are two key concepts: decentralization and federalism.</b> What does it mean? For non-tech people, we suggest testing the applications that do not have a single server that manages their work like do popular applications (Viber, Telegram, Whatsapp, Facebook Messenger, etc.) Therefore, proposed applications cannot be disabled by simple turning off the switches on the main server.
+        Reclaim control of your data and hide from prying eyes.With Dcomms you can communicate safely even when connections are being surveilled, or when the Internet is disconnected.Dcomms will never sell your data or hand your information over to the authorities.We run a free and open - source software stack with a focus on open, decentralized, and federated technologies.
       </p>
       <p>
-        <b>Note.</b> Your family and friends who you would like to keep in touch in case of Internet shutdown would also need to install the same programs. However, since you can host a local server on your local hosting, the server settings can also be managed. We propose you the tools that are only a small part of the Fediverse, which is a union of decentralized services that work according to the principle of federation. Once a user has an account on one of the services, it allows interaction with others without additional registration on each of them.
+        Dcomms was initially launched by eQualit.ie in 2022 in response to full scaled Russia invasion of Ukraine.Eventually, it became its own project within eQualitie.At the start, the goal was to deploy many instances of encrypted chat services across Ukraine in preparation for the possibility that cities could be completely disconnected from the wider Internet.
+      <p>
+        This goal changed slightly when occupied cities’ connections were being routed through Russia, meaning security and privacy needed to be prioritized.Additionally, rather than long - term disconnections, we saw only short - term cut - offs in cities where shelling hit the Internet fiber - optic cables, so our offering needed to support users in those short time spans.
       </p>
       <p>
-        At the same time, the owner of the server CANNOT access the information in private chats he is not a part of. The server owner’s access to information is limited by public chats only.
-      </p>
-      <p>
-        Currently, the website offers several applications from the vast decentralized universe. This list will gradually expand. The programs are hosted on the servers hosted in Ukrainian data centers. If you have access to one of them, you can communicate with each other even if your area does not have the internet connection required to use other popular messengers.
-      </p>
-      <h2>Why is this necessary?</h2>
-      <p>
-        We understand that the main channels of communication in the temporarily occupied territories are currently controlled by the occupant government, while the access to information and communication with the world is a necessary resource. In dictatorship limiting this resource is an easy target. Thus, we propose you to get prepared in advance. The tools we offer give you an opportunity to provide yourself with an alternative in communication channels in the worst case scenario.
+        As Dcomms grows we hope to add many more free and open - source services useful to those who need them.If there is something you’ d like us to add, please make an issue over on our Github page.https: //github.com/censorship-no/dcomms
       </p>`
     }
   },
