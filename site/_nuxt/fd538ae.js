@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{320:function(t,l,n){"use strict";n.r(l);var e={},o=n(32),component=Object(o.a)(e,(function(){return(0,this._self._c)("h1",{staticClass:"text-4xl sm:text-5xl font-bold md:mb-[60px]"},[this._t("default")],2)}),[],!1,null,null,null);l.default=component.exports;installComponents(component,{H1:n(320).default})}}]);
