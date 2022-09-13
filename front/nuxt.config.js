@@ -1,6 +1,6 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: true,
+  ssr: false,
 
   // Target: https://go.nuxtjs.dev/config-target
   mode: "universal",
@@ -15,10 +15,8 @@ export default {
       lang: "ua",
     },
     title: "dComms",
-    description:
-      "Децентралізовані комунікації, які працюють з інтернетом або без нього",
-    meta: [
-      {
+    description: "Децентралізовані комунікації, які працюють з інтернетом або без нього",
+    meta: [{
         hid: "og:image:alt",
         property: "og:image:alt",
         content: `/preview-logo.png`,
@@ -46,8 +44,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content:
-          "Децентралізовані комунікації, які працюють з інтернетом або без нього",
+        content: "Децентралізовані комунікації, які працюють з інтернетом або без нього",
       },
       {
         hid: "twitter:title",
@@ -57,8 +54,7 @@ export default {
       {
         hid: "twitter:description",
         name: "twitter:description",
-        content:
-          "Децентралізовані комунікації, які працюють з інтернетом або без нього",
+        content: "Децентралізовані комунікації, які працюють з інтернетом або без нього",
       },
 
       {
@@ -90,8 +86,7 @@ export default {
       {
         hid: "og:description",
         property: "og:description",
-        content:
-          "Децентралізовані комунікації, які працюють з інтернетом або без нього",
+        content: "Децентралізовані комунікації, які працюють з інтернетом або без нього",
       },
 
       {
@@ -110,7 +105,11 @@ export default {
         content: "website",
       },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon-16x16.svg" }],
+    link: [{
+      rel: "icon",
+      type: "image/x-icon",
+      href: "/favicon-16x16.svg"
+    }],
   },
 
   modules: ["@nuxtjs/i18n", "@nuxtjs/google-fonts"],
@@ -121,11 +120,9 @@ export default {
       start_url: "/?standalone=true",
       lang: "ua",
       display: "standalone",
-      description:
-        "Децентралізовані комунікації, які працюють з інтернетом або без нього",
+      description: "Децентралізовані комунікації, які працюють з інтернетом або без нього",
       theme_color: "#111111",
-      icons: [
-        {
+      icons: [{
           src: "/android-chrome-192x192.svg",
           type: "image/png",
           sizes: "192x192",
@@ -173,8 +170,7 @@ export default {
     legacy: false,
     globalInjection: true,
     langDir: "lang/",
-    locales: [
-      {
+    locales: [{
         code: "ua",
         name: "UA",
         nameFull: "Ukranian",
