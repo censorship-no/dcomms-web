@@ -1,9 +1,6 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: true,
-
-  // Target: https://go.nuxtjs.dev/config-target
-  mode: "universal",
+  ssr: false,
   target: "static",
   generate: {
     dir: "../site/",
