@@ -62,6 +62,8 @@ export default {
     kherson: "Херсон",
     mykolayiv: "Николаев",
     poltava: "Полтава",
+    khmelnytskyi: "Хмельницкий"
+
   },
 
   footer: {

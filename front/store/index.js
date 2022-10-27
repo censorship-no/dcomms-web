@@ -42,6 +42,11 @@ export const state = () => ({
       link: "https://poltava.dcomm.net.ua/",
       label: "poltava",
     },
+    {
+      name: "cities.khmelnytskyi",
+      link: "https://khmelnytskyi.dcomm.net.ua/",
+      label: "khmelnytskyi",
+    },
   ],
   items: {
     messaging: [{
@@ -349,6 +354,42 @@ export const state = () => ({
               //   },
               // ],
             },
+            {
+              label: "khmelnytskyi",
+              name: {
+                ua: "Хмельницький Web chat",
+                ru: "Хмельницкий Web chat",
+                en: "Khmelnytskyi Web chat",
+              },
+
+              link: "https://chat.poltava.dcomm.net.ua/",
+              // docs: [
+              //   {
+              //     name: "HTML",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.html",
+              //       en: "/docs/matrix/mykolayiv.html",
+              //       ru: "/docs/matrix/mykolayiv.html",
+              //     },
+              //   },
+              //   {
+              //     name: "HTML",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.html",
+              //       en: "/docs/matrix/mykolayiv.html",
+              //       ru: "/docs/matrix/mykolayiv.html",
+              //     },
+              //   },
+              //   {
+              //     name: "PDF",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.pdf",
+              //       en: "/docs/matrix/mykolayiv.pdf",
+              //       ru: "/docs/matrix/mykolayiv.pdf",
+              //     },
+              //   },
+              // ],
+            },
           ],
         },
         mobileApp: {
@@ -617,6 +658,41 @@ export const state = () => ({
               //   },
               // ],
             },
+            {
+              label: "khmelnytskyi",
+              type: "copy",
+              name: {
+                ua: "matrix.khmelnytskyi.dcomm.net.ua",
+                ru: "matrix.khmelnytskyi.dcomm.net.ua",
+                en: "matrix.khmelnytskyi.dcomm.net.ua",
+              },
+              // docs: [
+              //   {
+              //     name: "HTML",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.html",
+              //       en: "/docs/matrix/mykolayiv.html",
+              //       ru: "/docs/matrix/mykolayiv.html",
+              //     },
+              //   },
+              //   {
+              //     name: "HTML",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.html",
+              //       en: "/docs/matrix/mykolayiv.html",
+              //       ru: "/docs/matrix/mykolayiv.html",
+              //     },
+              //   },
+              //   {
+              //     name: "PDF",
+              //     link: {
+              //       ua: "/docs/matrix/mykolayiv.pdf",
+              //       en: "/docs/matrix/mykolayiv.pdf",
+              //       ru: "/docs/matrix/mykolayiv.pdf",
+              //     },
+              //   },
+              // ],
+            },
           ],
         },
       },
@@ -783,6 +859,18 @@ export const state = () => ({
                 },
               }, ],
             },
+            {
+              label: "khmelnytskyi",
+
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/khmelnytskyi-invite.png",
+                  en: "/docs/deltachat/khmelnytskyi-invite.png",
+                  ru: "/docs/deltachat/khmelnytskyi-invite.png",
+                },
+              }, ],
+            },
           ],
         },
         mobileApp: {
@@ -928,6 +1016,18 @@ export const state = () => ({
                   ua: "/docs/deltachat/poltava-invite.png",
                   en: "/docs/deltachat/poltava-invite.png",
                   ru: "/docs/deltachat/poltava-invite.png",
+                },
+              }, ],
+            },
+            {
+              label: "khmelnytskyi",
+
+              docs: [{
+                name: "QR Code",
+                link: {
+                  ua: "/docs/deltachat/khmelnytskyi-invite.png",
+                  en: "/docs/deltachat/khmelnytskyi-invite.png",
+                  ru: "/docs/deltachat/khmelnytskyi-invite.png",
                 },
               }, ],
             },
@@ -1312,6 +1412,25 @@ export const state = () => ({
               },
             }, ],
           },
+
+          {
+            label: "khmelnytskyi",
+            name: {
+              ua: "Хмельницький сервер",
+              ru: "Хмельницкий сервер",
+              en: "Khmelnytskyi server",
+            },
+
+            link: "https://social.khmelnytskyi.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
         ],
       },
       mobileApp: {
@@ -1471,6 +1590,24 @@ export const state = () => ({
             },
 
             link: "https://social.poltava.dcomm.net.ua/",
+            docs: [{
+              name: "Link",
+              link: {
+                ua: "https://mastodon.help/",
+                en: "https://mastodon.help/",
+                ru: "https://mastodon.help/",
+              },
+            }, ],
+          },
+          {
+            label: "khmelnytskyi",
+            name: {
+              ua: "Хмельницький сервер",
+              ru: "Хмельницкий сервер",
+              en: "Khmelnytskyi server",
+            },
+
+            link: "https://social.khmelnytskyi.dcomm.net.ua/",
             docs: [{
               name: "Link",
               link: {
