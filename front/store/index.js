@@ -362,7 +362,7 @@ export const state = () => ({
                 en: "Khmelnytskyi Web chat",
               },
 
-              link: "https://chat.poltava.dcomm.net.ua/",
+              link: "https://chat.khmelnytskyi.dcomm.net.ua/",
               // docs: [
               //   {
               //     name: "HTML",
