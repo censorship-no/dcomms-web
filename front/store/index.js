@@ -404,7 +404,7 @@ export const state = () => ({
                   ru: "Локально",
                   en: "Locally",
                 },
-                link: "/package/element/files/",
+                link: "/package/element/",
               },
               {
                 name: {
@@ -740,7 +740,7 @@ export const state = () => ({
                   ru: "Локально",
                   en: "Locally",
                 },
-                link: "/package/deltachat/files/",
+                link: "/package/deltachat/",
               },
               {
                 name: {
@@ -900,7 +900,7 @@ export const state = () => ({
                   ru: "Локально",
                   en: "Locally",
                 },
-                link: "/package/deltachat/files/",
+                link: "/package/deltachat/",
               },
               {
                 name: {
@@ -1085,7 +1085,7 @@ export const state = () => ({
                   ru: "Локально",
                   en: "Locally",
                 },
-                link: "/package/briar/files/",
+                link: "/package/briar/",
               },
               {
                 name: {
@@ -1151,7 +1151,7 @@ export const state = () => ({
                   ru: "Локально",
                   en: "Locally",
                 },
-                link: "/package/ceno/files/",
+                link: "/package/ceno/",
               },
               {
                 name: {
@@ -1212,7 +1212,7 @@ export const state = () => ({
                   ru: "Локально",
                   en: "Locally",
                 },
-                link: "/package/newnode/files/",
+                link: "/package/newnode/",
               },
               {
                 name: {
@@ -1663,7 +1663,7 @@ export const state = () => ({
     //   },
     // ],
     //          link: "https://syncthing.net/downloads",
-    //          localLink: "/package/syncthing/files/",
+    //          localLink: "/package/syncthing/",
     //        },
     //      },
     //    ],
