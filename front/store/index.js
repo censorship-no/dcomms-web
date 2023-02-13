@@ -42,6 +42,10 @@ export const state = () => ({
       name: "cities.poltava",
       link: "https://poltava.dcomm.net.ua/",
       label: "poltava",
+    }, {
+      name: "cities.khmelnytskyi",
+      link: "https://khmelnytskyi.dcomm.net.ua/",
+      label: "khmelnytskyi",
     },
   ],
   items: {
@@ -49,22 +53,9 @@ export const state = () => ({
         id: 1,
         show: true,
         descr: {
-          ua: `<p>Обмін повідомленнями, що підтримують наскрізне шифрування, приватні чати, приватні кімнати та публічні
-        кімнати. Зважайте, що реєстрація доступна для всіх – будьте уважні щодо ідентифікації особи користувача, перш
-        ніж довіряти цьому джерелу.</p>
-
-        <p>Приватні групи доступні лише їхнім засновникам і запрошеним користувачам. Діє принцип зв"язаного сервісу – люди
-        на одному сервері можуть спілкуватися з людьми, підключеними до іншого.</p>
-
-        <p>Для публічних груп діє модерація</p>`,
-          en: `<p>Messaging that supports end-to-end encryption, private chats, private rooms and public rooms. Note that registration is open to everyone - take due care in establishing the user"s identity before trusting that source. Private groups are only known, available to their creator and invited people. This is a federated service - people on one server can chat with people connected to another.
-</p><p>
-Public group moderation is on.</p>
-`,
-          ru: `<p>Сервис для обмена сообщениям, поддерживающий сквозное шифрование, приватные чаты, личные и публичные комнаты. Внимание: регистрация открыта для всех — будьте внимательны при установлении личности пользователя, прежде чем доверять ему. Приватные группы доступны только их создателю и приглашенным людям. Это федеративный сервис - люди на одном сервере могут общаться с людьми, подключенными к другому.
-</p><p>
-Включена модерация публичных групп.</p>
-`,
+          ua: `<p>Matrix — децентралізований протокол обміну повідомленнями з клієнтом Element, що до нього додається, який може стати альтернативою звичним месенджерам. Є дуже зручні мобільні клієнти під Android та iOS з push-повідомленнями, та десктопні клієнти для Windows, Linux, MacOS. Протокол налаштований за принципом федерації, яка дозволяє миттєво отримувати та надсилати повідомлення, створювати спільні чати для користувачів з різних серверів, здійснювати відео- та аудіодзвінки. Element має всі функції, які притаманні іншим сучасним та популярним месенджерам (за винятком голосових повідомлень). Можна створювати приватні групові чати, які доступні лише тому, хто їх створив, та запрошеним користувачам. Реєстрація не займе більше хвилини.</p>`,
+          en: `<p>Matrix is ​​a decentralized messaging protocol with an Element client attached to it, which can become an alternative to familiar messengers. There are very convenient mobile clients for Android and iOS with push notifications, and desktop clients for Windows, Linux, macOS. The protocol is based on the principle of federation, which allows you to instantly receive and send messages, create general chats for users of different servers, and make video and audio calls. Element has all the modern features that other popular messengers have (except for voice messages). One can create private group chats that are only available to their creator and invited users. Registration will not take more than a minute.</p>`,
+          ru: `<p>Matrix — это децентрализованный протокол обмена сообщениями с прилагающимся к нему клиентом Element, который может стать альтернативой привычным мессенджерам. Есть весьма удобные мобильные клиенты под Android и iOS с push-уведомлениями, и десктопные клиенты для Windows, Linux, macOS. Протокол устроен по принципу федерации, которая позволяет мгновенно получать и отправлять сообщения, создавать общие чаты для пользователей разных серверов, совершать видео- и аудиозвонки. Element обладает всеми современными функциями, которые присущи другим популярным мессенджерам (за исключением голосовых сообщений). Можно создавать приватные групповые чаты, которые доступны только их создателю и приглашенным пользователям. Регистрация не займет у вас больше минуты.</p>`,
         },
         logo: "/logo/logo-mark-primary.svg",
         name: {
@@ -328,9 +319,9 @@ Public group moderation is on.</p>
         id: 2,
         show: true,
         descr: {
-          ua: `<p>NewNode VPN створює альтернативне мережеве з"єднання, що дозволяє вашому пристрою спілкуватися в ситуаціях, коли потрібний інтернет-сайт або ресурс заблоковані або недоступні. Він використовує однорангову мережу для маршрутизації ваших даних навколо мережевих перешкод. Незалежний від сервера, стійкий до DDoS-атак і перевірений безпекою, що робить його унікальним серед додатків VPN.</p>`,
-          en: `<p>NewNode VPN creates an alternative network connection allowing your device to communicate in situations where a desired internet site or resource is blocked or unavailable. It utilizes peer-to-peer networking to route your data around network obstacles. Server-independent, resistant to DDoS attacks, and security audited - making it unique among VPN apps.</p>`,
-          ru: `</p>NewNode VPN создает альтернативное сетевое подключение, позволяющее вашему устройству обмениваться данными в ситуациях, когда нужный интернет-сайт или ресурс заблокирован или недоступен. Он использует одноранговую сеть для маршрутизации ваших данных в обход сетевых препятствий. Децентрализованный доступ, устойчивость к DDoS-атакам и независимый аудит безопасности, делают его уникальным среди VPN-приложений.</p>`,
+          ua: `<p>Цей сервіс створює альтернативне мережне з'єднання, яке дозволяє вашому пристрою обмінюватися даними в ситуаціях, коли потрібний сайт або веб-ресурс є недоступним або його заблоковано. NewNode використовує гнучку, надійну однорангову мережу для маршрутизації ваших даних в обхід мережевих блокувань. NewNode повністю незалежний від сервера та стійкий до DDoS-атак. Власне NewNode не є звичним вам VPN-сервісом, але дозволяє отримати доступ до контенту навіть за відсутності у вас доступу до інтернету. Тому не намагайтеся використовувати його для анонімізації і не дивуйтеся, що ваша IP-адреса не змінилася після включення NewNode. Сервіс надається безкоштовно, не містить реклами, його використання є законним та безпечним. Додаток доступний на платформі Android з версії 10 і новіші, а також для iPhone c iOS 12.0 і Mac на чіпі Apple M1. NewNode підтримує лише англійську мову, але у вас не виникне з цим жодних проблем, оскільки програма має простий інтерфейс з єдиною кнопкою.</p>`,
+          en: `<p>This service creates an alternative network connection that allows your device to communicate in situations where the required site or web resource is blocked or unavailable. NewNode uses a flexible, reliable peer-to-peer network to route your data around network blockages. NewNode is completely server independent and resistant to DDoS attacks. Actually, NewNode is not your usual VPN app, but it allows you to access content even if you do not have access to the Internet. So don't try to use it for anonymization and don't be surprised that your IP address hasn't changed after enabling NewNode. The service is provided free of charge, it contains no ads, and is legal and safe to use. The application is available on Android platform from version 10 and newer, as well as for iPhone with iOS 12.0 and Mac with Apple M1 chip. NewNode only supports English, but you won't have any problems with it since the application has a simple interface with a single button.</p>`,
+          ru: `</p>Этот сервис создает альтернативное сетевое соединение, позволяющее вашему устройству обмениваться данными в ситуациях, когда требуемый сайт или веб-ресурс заблокирован или недоступен. NewNode использует гибкую, надежную одноранговую сеть для маршрутизации ваших данных в обход сетевых блокировок. NewNode полностью независим от сервера и устойчив к DDoS-атакам. Собственно, NewNode не является привычным вам VPN-клиентом, но позволяет получить доступ к контенту даже при отсутствии у вас доступа к интернету. Поэтому не пытайтесь использовать его для анонимизации и не удивляйтесь, что ваш IP-адрес не изменился после включения NewNode. Сервис предоставляется бесплатно, не содержит рекламы, его использование законно и безопасно. Приложение доступно на платформе Android с версии 10 и новее, а так же для iPhone c iOS 12.0 и Mac на чипе Apple M1. NewNode поддерживает только английский язык, но у вас не возникнет с этим никаких проблем, так как приложение имеет простой интерфейс с единственной кнопкой.</p>`,
         },
         name: {
           ua: "NewNode VPN",

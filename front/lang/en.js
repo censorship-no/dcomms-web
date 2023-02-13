@@ -57,6 +57,8 @@ export default {
     kherson: "Kherson",
     mykolayiv: "Mykolayiv",
     poltava: "Poltava",
+    khmelnytskyi: "Khmelnytskyi"
+
   },
   copyUrl: "Copy URL",
 

@@ -42,7 +42,7 @@
               focus:outline-none
             "
           >
-            #dcommsp2p:matrix.kyiv.dcomms.net.ua
+            matrix.to/#/#ukraine.chat:matrix.org
           </div>
           <Button @click.native="copyDivToClipboard('linkMatrix')">
             <span class="flex flex-nowrap">
