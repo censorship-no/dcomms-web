@@ -25,9 +25,12 @@
     "@nuxtjs/tailwindcss": "^4.2.1",
     "postcss": "^8.4.16"
   },
-  "overrides": {
-    "parse-path": "^5.0.0",
-    "glob-parent": "5.1.2",
-    "nth-check": "2.0.1"
+  "pnpm": {
+    "overrides": {
+      "parse-path": "^5.0.0",
+      "glob-parent": "5.1.2",
+      "nth-check": "2.0.1",
+      "cacheable-request": "10.2.7"
+    }
   }
 }
