@@ -97,7 +97,7 @@ export const state = () => ({
           downloads: {
             mirrors: [{
                 label: "locally",
-                link: "/package/element/files/",
+                link: "/package/element/",
               },
               {
                 name: "Element.io",
@@ -173,7 +173,7 @@ export const state = () => ({
             mirrors: [{
                 label: "locally",
 
-                link: "/package/deltachat/files/",
+                link: "/package/deltachat",
               },
               {
                 name: "Delta Chat",
@@ -211,7 +211,7 @@ export const state = () => ({
           downloads: {
             mirrors: [{
                 label: "locally",
-                link: "/package/deltachat/files/",
+                link: "/package/deltachat",
               },
               {
                 name: "Delta Chat",
@@ -253,7 +253,7 @@ export const state = () => ({
           downloads: {
             mirrors: [{
                 label: "locally",
-                link: "/package/briar/files/",
+                link: "/package/briar",
               },
               {
                 name: "Briar",
@@ -306,7 +306,7 @@ export const state = () => ({
           downloads: {
             mirrors: [{
                 label: "locally",
-                link: "/package/ceno/files/",
+                link: "/package/ceno",
               },
               {
                 name: "CENO",
@@ -353,7 +353,7 @@ export const state = () => ({
           downloads: {
             mirrors: [{
                 label: "locally",
-                link: "/package/newnode/files/",
+                link: "/package/newnode",
               },
               {
                 name: "New node",
