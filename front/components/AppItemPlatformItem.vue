@@ -9,24 +9,23 @@
     <div class="mb-5 text-sm font-semibold uppercase text-gray-600" v-else>
       {{ $t("items.mobileApp") }}
     </div>
-
-    <div v-for="itemServers in item" :key="itemServers.label" class="sm:pr-6">
+    <div class="sm:pr-6">
       <div class="mb-3 flex items-center">
         <span
           v-if="data.serversLabel"
           class="block sm:inline mr-3 text-sm min-w-[90px] text-right"
           >{{ data.serversLabel[$i18n.locale] }}</span
         >
-
         <Button
-          :link="itemServers.link"
-          v-if="itemServers.name && itemServers.link"
-          >{{ itemServers.name[$i18n.locale] }}</Button
+          :link="`https://${data.linkSubdomain}.${server}.${domain}`"
+          v-if="
+            data.serversLabel && data.linkSubdomain && data.btnType !== 'copy'
+          "
+          >{{
+            data.serversLabel[$i18n.locale] + " " + $t("cities." + server)
+          }}</Button
         >
-        <span
-          class="text-sm text-gray-600 flex"
-          v-if="itemServers.type === 'copy'"
-        >
+        <span class="text-sm text-gray-600 flex" v-if="data.btnType === 'copy'">
           <ButtonGroups>
             <div
               id="adresServer"
@@ -46,7 +45,7 @@
                 focus:outline-none
               "
             >
-              {{ itemServers.name[$i18n.locale] }}
+              {{ `${data.linkSubdomain}.${server}.${domain}` }}
             </div>
             <Button @click.native="copyDivToClipboard('adresServer')">
               <span class="flex flex-nowrap">
@@ -59,20 +58,47 @@
           </ButtonGroups>
         </span>
       </div>
-      <div v-if="itemServers.docs" class="flex items-center mb-3">
+      <!-- <div v-if="itemServers.docs" class="flex items-center mb-3">
         <span class="block sm:inline mr-3 text-sm min-w-[90px] sm:text-right"
           >{{ $t("items.instruction") }}
         </span>
 
         <ButtonGroups>
           <Button
-            v-for="itemDocs in itemServers.docs"
             :key="itemDocs.link[$i18n.locale]"
             :link="itemDocs.link[$i18n.locale]"
             >{{ itemDocs.name }}
           </Button>
         </ButtonGroups>
-      </div>
+      </div> -->
+    </div>
+
+    <div v-if="data.docs" class="flex items-center mb-3">
+      <span class="block sm:inline mr-3 text-sm min-w-[90px] sm:text-right"
+        >{{ $t("items.instruction") }}
+      </span>
+      <ButtonGroups>
+        <Button
+          v-for="itemDocs in data.docs"
+          :key="itemDocs.link[$i18n.locale]"
+        >
+          <a
+            class="text-gray-700"
+            v-if="itemDocs.type == 'doc'"
+            :href="itemDocs.link[$i18n.locale]"
+            target="_blank"
+          >
+            {{ itemDocs.name }}
+          </a>
+          <NuxtLink
+            v-else
+            class="text-gray-700"
+            :to="localePath(itemDocs.link)"
+          >
+            {{ itemDocs.name }}
+          </NuxtLink>
+        </Button>
+      </ButtonGroups>
     </div>
     <div class="mb-3 items-center" v-if="data.downloads">
       <div class="flex items-center">
@@ -82,9 +108,13 @@
         <ButtonGroups>
           <Button
             v-for="itemDownload in data.downloads.mirrors"
-            :key="itemDownload.name[$i18n.locale]"
+            :key="itemDownload.label ? itemDownload.label : itemDownload.name"
             :link="itemDownload.link"
-            >{{ itemDownload.name[$i18n.locale] }}
+            >{{
+              itemDownload.label
+                ? $t("labels." + itemDownload.label)
+                : itemDownload.name
+            }}
           </Button>
         </ButtonGroups>
       </div>
@@ -155,7 +185,11 @@ export default {
   name: "AppItemPlatformItem",
   props: { data: Object, desktop: Boolean },
   mixins: [copy],
-
+  data() {
+    return {
+      domain: this.$store.state.rootDomain,
+    };
+  },
   computed: {
     server() {
       if (this.$t(`cities`)[`${window.location.host.split(".")[0]}`]) {
