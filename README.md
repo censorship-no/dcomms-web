@@ -34,19 +34,22 @@ cd front/
 ```
 
 3. Install dependencies:
+
+Use pnpm manager https://pnpm.io/installation
+
 ```
-yarn install
+pnpm i
 ```
 
 4. For initial compilation use:
 ```
-yarn dev
+pnpm dev
 ```
 Apps open in standard port `http://localhost:3000`
 
 5. For production, you need to generate static files:
 ```
-yarn generate
+pnpm generate
 ```
 
 ## Development
