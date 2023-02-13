@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{350:function(t,e,n){"use strict";n.r(e);var l={},c=n(30),component=Object(c.a)(l,(function(){return(0,this._self._c)("h2",{staticClass:"uppercase gray-700 text-lg whitespace-nowrap mb-3"},[this._t("default")],2)}),[],!1,null,null,null);e.default=component.exports;installComponents(component,{H2:n(350).default})}}]);
