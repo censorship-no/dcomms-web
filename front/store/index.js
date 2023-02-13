@@ -47,11 +47,7 @@ export const state = () => ({
       link: "https://khmelnytskyi.dcomm.net.ua/",
       label: "khmelnytskyi",
     },
-    {
-      name: "cities.khmelnytskyi",
-      link: "https://khmelnytskyi.dcomm.net.ua/",
-      label: "khmelnytskyi",
-    },
+
   ],
   items: {
     messaging: [{
